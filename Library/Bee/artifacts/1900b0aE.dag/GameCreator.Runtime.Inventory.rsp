@@ -1,0 +1,682 @@
+-target:library
+-out:"Library/Bee/artifacts/1900b0aE.dag/GameCreator.Runtime.Inventory.dll"
+-refout:"Library/Bee/artifacts/1900b0aE.dag/GameCreator.Runtime.Inventory.ref.dll"
+-define:UNITY_2022_2_5
+-define:UNITY_2022_2
+-define:UNITY_2022
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:UNITY_2022_1_OR_NEWER
+-define:UNITY_2022_2_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_INCLUDE_TESTS
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_EDITOR_GAME_SERVICES
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_VIDEO
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION
+-define:ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT
+-define:ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE
+-define:PLATFORM_STANDALONE
+-define:TEXTCORE_1_0_OR_NEWER
+-define:PLATFORM_STANDALONE_WIN
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY
+-define:ENABLE_MONO
+-define:NET_STANDARD_2_0
+-define:NET_STANDARD
+-define:NET_STANDARD_2_1
+-define:NETSTANDARD
+-define:NETSTANDARD2_1
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:PHOTON_UNITY_NETWORKING
+-define:PUN_2_0_OR_NEWER
+-define:PUN_2_OR_NEWER
+-define:PUN_2_19_OR_NEWER
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.GradleProject.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
+-r:"Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
+-r:"Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
+-r:"Library/PackageCache/com.unity.burst@1.8.2/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"Library/PackageCache/com.unity.collab-proxy@2.0.0/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
+-r:"Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/GameCreator.Runtime.Core.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Bags/BagGrid.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Bags/BagList.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Bags/IBag.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Bags/TBag.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Content/BagContentGrid.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Content/BagContentList.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Content/Bucket.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Content/Cell.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Content/IBagContent.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Content/TBagContent.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Equipment/BagEquipment.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Equipment/EquipmentRuntime.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Equipment/EquipmentRuntimeSlot.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Equipment/IBagEquipment.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Shapes/BagShapeGrid.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Shapes/BagShapeList.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Shapes/IBagShape.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Shapes/TBagShape.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Shapes/TBagShapeWithWeight.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Wealth/BagWealth.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Wealth/BagWealthMap.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Bag/Wealth/IBagWealth.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Currency/Coin.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Currency/Coins.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Currency/CoinSelect.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Equipment/EquipmentIndex.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Equipment/EquipmentSlot.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Equipment/EquipmentSlots.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/Runtime/RuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/Runtime/RuntimeProperties.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/Runtime/RuntimeProperty.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/Runtime/RuntimeSocket.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/Runtime/RuntimeSockets.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Craft/Crafting.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Craft/Ingredient.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Equip/Equip.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Info.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Price.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Properties/Properties.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Properties/PropertiesOverrides.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Properties/Property.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Properties/PropertyOverride.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Shape.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Shared/IItemListEntry.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Shared/ItemConditions.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Shared/ItemInstructions.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Shared/TItemList.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Sockets/Socket.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Sockets/Sockets.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Items/ScriptableObject/Usage/Usage.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Loot/LastLoot.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Loot/Loot.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Loot/LootList.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Memories/MemoryBag.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Memories/TokenBag.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Memories/TokenBagEquipment.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Memories/TokenBagItems.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Memories/TokenBagShape.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Memories/TokenBagWealth.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Merchant/MerchantInfo.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Fields/Get/PropertyGetItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Fields/Get/PropertyGetRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Fields/Set/PropertySetItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Fields/Set/PropertySetRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Base/PropertyTypeGetItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Base/PropertyTypeGetRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Color/GetColorItemColor.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Color/GetColorItemPropertyColor.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Color/GetColorRuntimeItemColor.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Color/GetColorRuntimeItemPropertyColor.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Decimal/GetDecimalInventoryBagAmountItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Decimal/GetDecimalInventoryBagAmountRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Decimal/GetDecimalInventoryBagCurrentWeight.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Decimal/GetDecimalInventoryBagMaxWeight.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Decimal/GetDecimalInventoryBagRatioWeight.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Decimal/GetDecimalInventoryBagWealth.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Decimal/GetDecimalInventoryLastAttachmentAttached.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Decimal/GetDecimalInventoryLastAttachmentDetached.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Decimal/GetDecimalInventoryLastItemEquipProperty.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Decimal/GetDecimalInventoryLastItemUnequipProperty.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Decimal/GetDecimalInventoryLastItemUsedProperty.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Decimal/GetDecimalInventoryLastParentAttached.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Decimal/GetDecimalInventoryLastParentDetached.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Decimal/GetDecimalInventoryLastWealthLooted.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Decimal/GetDecimalItemPropertyValue.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Decimal/GetDecimalRuntimeItemPropertyValue.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/GameObject/GetGameObjectInventoryBag.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/GameObject/GetGameObjectInventoryBagOpen.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/GameObject/GetGameObjectInventoryClientOpen.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/GameObject/GetGameObjectInventoryLastInstantiated.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/GameObject/GetGameObjectInventoryMerchant.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/GameObject/GetGameObjectInventoryMerchantOpen.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/GameObject/GetGameObjectInventoryTBagUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/GameObject/GetGameObjectInventoryTinkerInputOpen.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/GameObject/GetGameObjectInventoryTinkerOutputOpen.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemGlobalList.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemGlobalListFromRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemGlobalName.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemGlobalNameFromRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemInstance.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLastAdded.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLastAttachmentAttached.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLastAttachmentDetached.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLastBought.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLastCrafted.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLastDismantled.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLastDropped.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLastEquipped.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLastInstantiated.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLastLooted.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLastParentAttached.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLastParentDetached.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLastRemoved.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLastSold.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLastUnequipped.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLastUsed.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLocalList.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLocalListFromRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLocalName.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Item/GetItemLocalNameFromRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemCreateInstance.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemGlobalList.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemGlobalName.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLastAdded.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLastAttachmentAttached.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLastAttachmentDetached.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLastBought.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLastCrafted.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLastDismantled.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLastDropped.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLastEquipped.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLastInstantiated.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLastLooted.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLastParentAttached.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLastParentDetached.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLastRemoved.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLastSold.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLastUnequipped.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLastUsed.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLocalList.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/RuntimeItem/GetRuntimeItemLocalName.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Sprite/GetSpriteItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Sprite/GetSpriteItemPropertyIcon.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Sprite/GetSpriteRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/Sprite/GetSpriteRuntimeItemPropertyIcon.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/String/GetStringItemDescription.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/String/GetStringItemName.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/String/GetStringItemPropertyText.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/String/GetStringItemPropertyValue.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/String/GetStringRuntimeItemDescription.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/String/GetStringRuntimeItemName.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/String/GetStringRuntimeItemPropertyText.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Get/String/GetStringRuntimeItemPropertyValue.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/Base/PropertyTypeSetItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/Base/PropertyTypeSetRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/Item/SetItemGlobalList.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/Item/SetItemGlobalName.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/Item/SetItemLocalList.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/Item/SetItemLocalName.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/Item/SetItemNone.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/Number/SetNumberInventoryWealth.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/Number/SetNumberItemPropertyValue.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/Number/SetNumberRuntimeItemPropertyValue.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/RuntimeItem/SetRuntimeItemGlobalList.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/RuntimeItem/SetRuntimeItemGlobalName.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/RuntimeItem/SetRuntimeItemLocalList.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/RuntimeItem/SetRuntimeItemLocalName.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/RuntimeItem/SetRuntimeRuntimeItemNone.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/String/SetStringItemPropertyText.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Properties/Types/Set/String/SetStringRuntimeItemPropertyText.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Stock/Stock.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Stock/StockData.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Classes/Stock/WealthData.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Components/Bag.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Components/Merchant.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Components/Prop.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Icons/IconBagGrid.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Icons/IconBagList.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Icons/IconBagOutline.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Icons/IconBagSolid.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Icons/IconCoin.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Icons/IconCraft.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Icons/IconCurrency.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Icons/IconEquipment.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Icons/IconIngredient.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Icons/IconItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Icons/IconLoot.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Icons/IconMerchant.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Icons/IconProperty.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Icons/IconSocket.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/ScriptableObjects/BagSkin.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/ScriptableObjects/Currency.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/ScriptableObjects/Equipment.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/ScriptableObjects/Item.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/ScriptableObjects/LootTable.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/ScriptableObjects/MerchantSkin.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/ScriptableObjects/TinkerSkin.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Settings/Classes/Catalogue.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Settings/InventoryRepository.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Settings/InventorySettings.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Classes/CellContentUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Classes/CellMerchantUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Classes/ItemUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Classes/RuntimeItemUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Classes/TinkerCraftingUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Classes/TinkerDismantlingUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Classes/TItemUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Classes/TTinkerUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/BagCellUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/BagEquipUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/BagGridUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/BagListUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/BagListUITab.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/BagWealthUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/BagWeightUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/CoinUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/CraftingIngredientUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/CraftingItemUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/DismantlingIngredientUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/DismantlingItemUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/MerchantUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/PriceUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/PropertyUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/SelectedCellUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/SocketUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/TBagUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/TinkerUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/TooltipBagCellUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/TooltipDragUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/TooltipSocketUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/TTinkerIngredientUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/TTinkerItemUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Components/TTooltipUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/UI/UnityUI/Enums/CellCorner.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Variables/ValueItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/Variables/ValueRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryBagOverloaded.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryCanAdd.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryCanBuy.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryCanCraft.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryCanDismantle.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryCanEquip.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryCanSell.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryCompareWealth.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryHasItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryHasRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryIsCraftable.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryIsDismantable.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryIsEquipmentSlotFree.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryIsEquippable.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryIsEquipped.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryIsEquippedRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryIsUsable.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryItemHasProperty.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryItemType.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/ConditionInventoryRuntimeItemHasProperty.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/UI/ConditionInventoryIsOpenBagUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/UI/ConditionInventoryIsOpenMerchantUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Conditions/UI/ConditionInventoryIsOpenTinkerUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/EventInventoryOnAddToBag.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/EventInventoryOnBuy.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/EventInventoryOnCraft.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/EventInventoryOnDismantle.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/EventInventoryOnEquip.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/EventInventoryOnInstantiateItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/EventInventoryOnRemoveFomBag.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/EventInventoryOnSell.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/EventInventoryOnSocketAttach.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/EventInventoryOnSocketDetach.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/EventInventoryOnUnequip.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/UI/EventInventoryOnCloseBagUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/UI/EventInventoryOnCloseMerchantUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/UI/EventInventoryOnCloseTinkerUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/UI/EventInventoryOnDropItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/UI/EventInventoryOnOpenBagUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/UI/EventInventoryOnOpenMerchantUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Events/UI/EventInventoryOnOpenTinkerUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryAddItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryAddRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryBagIncrementHeight.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryBagIncrementWidth.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryCurrency.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryDropItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryDropRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryEquipItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryEquipRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryInstantiateItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryLoot.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryMoveContentToBag.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryMoveWealthToBag.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryRemoveItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryRemoveRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventorySetItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventorySetRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventorySocketsAttach.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventorySocketsDetach.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryUnequipItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/InstructionInventoryUnequipRuntimeItem.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/UI/InstructionInventoryCloseBagUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/UI/InstructionInventoryCloseMerchantUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/UI/InstructionInventoryCloseTinkerUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/UI/InstructionInventoryOpenBagUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/UI/InstructionInventoryOpenMerchantUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/UI/InstructionInventoryOpenTinkerUI.cs"
+"Assets/Plugins/GameCreator/Packages/Inventory/Runtime/VisualScripting/Instructions/UI/InstructionInventorySetBagUI.cs"
+-langversion:9.0
+
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+
+/nowarn:0169
+/nowarn:0649
+/nowarn:0282
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+
+
+
+/additionalfile:"Library/Bee/artifacts/1900b0aE.dag/GameCreator.Runtime.Inventory.AdditionalFile.txt"
