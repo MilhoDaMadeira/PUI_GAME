@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{fe93a944-b690-3094-6777-2e0c2795c571}</ProjectGuid>
+    <ProjectGuid>{db6c18b2-504a-e74e-0e26-933eb50f8b20}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>GameCreator.Tests.Core</AssemblyName>
@@ -297,7 +297,7 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>D:\PUI ASSIGNMENT #2\PUI ASSIGNMENT #2\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+        <HintPath>D:\PUI_GAME\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -675,27 +675,27 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2022.2.5f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>D:\PUI ASSIGNMENT #2\PUI ASSIGNMENT #2\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>D:\PUI_GAME\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>D:\PUI ASSIGNMENT #2\PUI ASSIGNMENT #2\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>D:\PUI_GAME\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{04f536ba-b157-c794-e8a5-f8524406cb8b}</Project>
+      <Project>{b18789e1-2ed2-6799-5bf3-a226183abe59}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{31c9f738-ac8c-a33b-d6d4-ef3b0050b278}</Project>
+      <Project>{aa7b3def-6645-ba56-e9b5-c240119028fd}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="GameCreator.Runtime.Core.csproj">
-      <Project>{a9021e37-1a0a-f7d2-6037-f04a9a2b466c}</Project>
+      <Project>{74368ff5-844e-db15-18cd-6a3555f4bc0e}</Project>
       <Name>GameCreator.Runtime.Core</Name>
     </ProjectReference>
     <ProjectReference Include="GameCreator.Editor.Core.csproj">
-      <Project>{bbf21f99-6f80-a73c-d3fc-43c9a2e46da0}</Project>
+      <Project>{81ee0d4b-871d-e7e3-1f3a-b09b4b530872}</Project>
       <Name>GameCreator.Editor.Core</Name>
     </ProjectReference>
   </ItemGroup>
