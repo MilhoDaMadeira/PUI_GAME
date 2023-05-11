@@ -968,9 +968,9 @@
      <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Runtime\VisualScripting\Events\Collection\Interaction\EventCharacterOnFocusInteractive.cs" />
      <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Runtime\Common\Structures\Trie.cs" />
      <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Runtime\Characters\Features\Animim\Assets\Classes\LocomotionData.cs" />
+     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Runtime\VisualScripting\Instructions\Collection\Common\Math\Text\InstructionTextJoin.cs" />
      <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Runtime\VisualScripting\Sequence\Sequence\Sequence.cs" />
      <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Runtime\VisualScripting\Instructions\Collection\Characters\Animation\InstructionCharacterStopGesture.cs" />
-     <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Runtime\VisualScripting\Instructions\Collection\Common\Math\Text\InstructionTextJoin.cs" />
      <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Runtime\Common\Input\Properties\InputPropertyValueFloat.cs" />
      <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Runtime\Common\Polymorphism\Properties\Types\Set\Sprite\SetSpriteReflectionPropertySprite.cs" />
      <Compile Include="Assets\Plugins\GameCreator\Packages\Core\Runtime\VisualScripting\Instructions\Collection\Common\Storage\InstructionCommonDeleteGame.cs" />
