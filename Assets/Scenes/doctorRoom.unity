@@ -995,6 +995,8 @@ MonoBehaviour:
     - rid: 4002126927587704846
     - rid: 4002126926418280462
     - rid: 4002126926418280464
+    - rid: 4002127002831945747
+    - rid: 4002127002831945749
   m_TriggerEvent:
     rid: 4002126926418280449
   references:
@@ -1081,6 +1083,43 @@ MonoBehaviour:
       type: {class: GetBoolValue, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 1
+    - rid: 4002127002831945747
+      type: {class: InstructionCommonTimeWait, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Seconds:
+          m_Property:
+            rid: 4002127002831945748
+        m_Mode:
+          m_UpdateTime: 0
+    - rid: 4002127002831945748
+      type: {class: GetDecimalDecimal, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 2
+    - rid: 4002127002831945749
+      type: {class: InstructionCommonSceneLoad, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_Scene:
+          m_Property:
+            rid: 4002127002831945750
+        m_Mode: 0
+        m_Async: 0
+        m_SceneEntries:
+          m_Entries: []
+    - rid: 4002127002831945750
+      type: {class: GetSceneAsset, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Scene:
+          m_Scene: {fileID: 102900000, guid: ef0ff2f27ff702b41a4b96593ba90f4f, type: 3}
+          m_SceneName: Game Assignment #2
+          m_SceneIndex: -1
 --- !u!4 &440019836
 Transform:
   m_ObjectHideFlags: 0
@@ -1108,6 +1147,7 @@ GameObject:
   - component: {fileID: 459320494}
   - component: {fileID: 459320493}
   - component: {fileID: 459320492}
+  - component: {fileID: 459320496}
   m_Layer: 5
   m_Name: Canvas (1)
   m_TagString: Untagged
@@ -1198,6 +1238,26 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!95 &459320496
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 459320490}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f6c557f27121c0944aa375183ae69dd0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &536422922
 GameObject:
   m_ObjectHideFlags: 0
@@ -1904,7 +1964,7 @@ Animator:
   m_GameObject: {fileID: 1493439039}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 17bfaf8c60230ec48b4883fe131eaa92, type: 2}
+  m_Controller: {fileID: 9100000, guid: f6c557f27121c0944aa375183ae69dd0, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2057,6 +2117,7 @@ GameObject:
   - component: {fileID: 1916124088}
   - component: {fileID: 1916124090}
   - component: {fileID: 1916124089}
+  - component: {fileID: 1916124091}
   m_Layer: 5
   m_Name: RawImage
   m_TagString: Untagged
@@ -2119,6 +2180,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1916124087}
   m_CullTransparentMesh: 1
+--- !u!95 &1916124091
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916124087}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a9528c0f584593a48b0b1c2b65f83306, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1001 &1954073881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2279,7 +2360,6 @@ GameObject:
   - component: {fileID: 1976637099}
   - component: {fileID: 1976637098}
   - component: {fileID: 1976637097}
-  - component: {fileID: 1976637101}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2370,23 +2450,3 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!95 &1976637101
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1976637096}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a9528c0f584593a48b0b1c2b65f83306, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
