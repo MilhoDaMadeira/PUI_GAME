@@ -616,6 +616,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -859,14 +860,14 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 4854580850095030693
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 4854580872400863258
   references:
     version: 2
     RefIds:
     - rid: 4854580850095030693
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -886,7 +887,8 @@ MonoBehaviour:
       data:
         m_Value: 0
     - rid: 4854580872400863258
-      type: {class: EventInventoryOnOpenTinkerUI, ns: GameCreator.Runtime.Inventory.UnityUI, asm: GameCreator.Runtime.Inventory}
+      type: {class: EventInventoryOnOpenTinkerUI, ns: GameCreator.Runtime.Inventory.UnityUI,
+        asm: GameCreator.Runtime.Inventory}
 --- !u!114 &6370069347919785182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -902,14 +904,14 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 4854580850095030696
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 4854580872400863259
   references:
     version: 2
     RefIds:
     - rid: 4854580850095030696
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -929,7 +931,8 @@ MonoBehaviour:
       data:
         m_Value: 1
     - rid: 4854580872400863259
-      type: {class: EventInventoryOnCloseTinkerUI, ns: GameCreator.Runtime.Inventory.UnityUI, asm: GameCreator.Runtime.Inventory}
+      type: {class: EventInventoryOnCloseTinkerUI, ns: GameCreator.Runtime.Inventory.UnityUI,
+        asm: GameCreator.Runtime.Inventory}
 --- !u!1 &2749906716992641218
 GameObject:
   m_ObjectHideFlags: 0
@@ -1245,7 +1248,8 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 4854580835099082830
-      type: {class: InstructionInventoryOpenBagUI, ns: GameCreator.Runtime.Inventory.UnityUI, asm: GameCreator.Runtime.Inventory}
+      type: {class: InstructionInventoryOpenBagUI, ns: GameCreator.Runtime.Inventory.UnityUI,
+        asm: GameCreator.Runtime.Inventory}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -1371,7 +1375,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.01
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: c6398fdf4ec3d47319532f9968c45721, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: c6398fdf4ec3d47319532f9968c45721,
+      type: 3}
     m_PressedSprite: {fileID: 21300000, guid: 58e19ce7432554aa197bee6942aae7e3, type: 3}
     m_SelectedSprite: {fileID: 21300000, guid: 737b8f57bd8b94d2d80e386537ac6a9c, type: 3}
     m_DisabledSprite: {fileID: 21300000, guid: b09281e8546bd4bf9a085f0e2ea52d9d, type: 3}
@@ -1499,7 +1504,8 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 2531411330301689924
-      type: {class: GetGameObjectInventoryBag, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      type: {class: GetGameObjectInventoryBag, ns: GameCreator.Runtime.Inventory,
+        asm: GameCreator.Runtime.Inventory}
       data:
         m_Bag: {fileID: 8188584720763726592}
     - rid: 4854580835099082853
@@ -1729,7 +1735,6 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 4854580834479112297
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 4854580834479112293
   references:
@@ -1757,7 +1762,8 @@ MonoBehaviour:
       data:
         m_Key: 23
     - rid: 4854580834479112297
-      type: {class: InstructionInventoryOpenBagUI, ns: GameCreator.Runtime.Inventory.UnityUI, asm: GameCreator.Runtime.Inventory}
+      type: {class: InstructionInventoryOpenBagUI, ns: GameCreator.Runtime.Inventory.UnityUI,
+        asm: GameCreator.Runtime.Inventory}
       data:
         m_IsExpanded: 1
         m_Breakpoint: 0
@@ -1955,7 +1961,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.01
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: c6398fdf4ec3d47319532f9968c45721, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: c6398fdf4ec3d47319532f9968c45721,
+      type: 3}
     m_PressedSprite: {fileID: 21300000, guid: 58e19ce7432554aa197bee6942aae7e3, type: 3}
     m_SelectedSprite: {fileID: 21300000, guid: 737b8f57bd8b94d2d80e386537ac6a9c, type: 3}
     m_DisabledSprite: {fileID: 21300000, guid: b09281e8546bd4bf9a085f0e2ea52d9d, type: 3}
@@ -2083,7 +2090,8 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 2531411330301689926
-      type: {class: GetGameObjectInventoryBag, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      type: {class: GetGameObjectInventoryBag, ns: GameCreator.Runtime.Inventory,
+        asm: GameCreator.Runtime.Inventory}
       data:
         m_Bag: {fileID: 8188584720763726592}
     - rid: 4854580835099082853
@@ -2330,16 +2338,17 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 4854580850095030693
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 4854580850095030690
   references:
     version: 2
     RefIds:
     - rid: 4854580850095030690
-      type: {class: EventInventoryOnOpenBagUI, ns: GameCreator.Runtime.Inventory.UnityUI, asm: GameCreator.Runtime.Inventory}
+      type: {class: EventInventoryOnOpenBagUI, ns: GameCreator.Runtime.Inventory.UnityUI,
+        asm: GameCreator.Runtime.Inventory}
     - rid: 4854580850095030693
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -2373,16 +2382,17 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 4854580850095030696
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 4854580850095030692
   references:
     version: 2
     RefIds:
     - rid: 4854580850095030692
-      type: {class: EventInventoryOnCloseBagUI, ns: GameCreator.Runtime.Inventory.UnityUI, asm: GameCreator.Runtime.Inventory}
+      type: {class: EventInventoryOnCloseBagUI, ns: GameCreator.Runtime.Inventory.UnityUI,
+        asm: GameCreator.Runtime.Inventory}
     - rid: 4854580850095030696
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -2601,14 +2611,14 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 4854580850095030693
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 4854580872400863260
   references:
     version: 2
     RefIds:
     - rid: 4854580850095030693
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -2628,7 +2638,8 @@ MonoBehaviour:
       data:
         m_Value: 0
     - rid: 4854580872400863260
-      type: {class: EventInventoryOnOpenMerchantUI, ns: GameCreator.Runtime.Inventory.UnityUI, asm: GameCreator.Runtime.Inventory}
+      type: {class: EventInventoryOnOpenMerchantUI, ns: GameCreator.Runtime.Inventory.UnityUI,
+        asm: GameCreator.Runtime.Inventory}
 --- !u!114 &5705993226172898182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2644,14 +2655,14 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 4854580850095030696
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 4854580872400863261
   references:
     version: 2
     RefIds:
     - rid: 4854580850095030696
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -2671,7 +2682,8 @@ MonoBehaviour:
       data:
         m_Value: 1
     - rid: 4854580872400863261
-      type: {class: EventInventoryOnCloseMerchantUI, ns: GameCreator.Runtime.Inventory.UnityUI, asm: GameCreator.Runtime.Inventory}
+      type: {class: EventInventoryOnCloseMerchantUI, ns: GameCreator.Runtime.Inventory.UnityUI,
+        asm: GameCreator.Runtime.Inventory}
 --- !u!1 &7135896840914010626
 GameObject:
   m_ObjectHideFlags: 0
@@ -2903,7 +2915,8 @@ MonoBehaviour:
   m_FromBag:
     m_Property:
       rid: 4854580850095030668
-  m_PrefabCoin: {fileID: 2997904746719975018, guid: f718f5e4a74b443ce8a84ffc0dea2cbf, type: 3}
+  m_PrefabCoin: {fileID: 2997904746719975018, guid: f718f5e4a74b443ce8a84ffc0dea2cbf,
+    type: 3}
   m_CoinsContent: {fileID: 6588930724414566569}
   references:
     version: 2
@@ -3065,7 +3078,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.01
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: c6398fdf4ec3d47319532f9968c45721, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: c6398fdf4ec3d47319532f9968c45721,
+      type: 3}
     m_PressedSprite: {fileID: 21300000, guid: 58e19ce7432554aa197bee6942aae7e3, type: 3}
     m_SelectedSprite: {fileID: 21300000, guid: 737b8f57bd8b94d2d80e386537ac6a9c, type: 3}
     m_DisabledSprite: {fileID: 21300000, guid: b09281e8546bd4bf9a085f0e2ea52d9d, type: 3}
@@ -3193,7 +3207,8 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 2531411330301689925
-      type: {class: GetGameObjectInventoryBag, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      type: {class: GetGameObjectInventoryBag, ns: GameCreator.Runtime.Inventory,
+        asm: GameCreator.Runtime.Inventory}
       data:
         m_Bag: {fileID: 8188584720763726592}
     - rid: 4854580835099082853
@@ -3495,61 +3510,90 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5289743268377336459, guid: c9d3f027132904e4b86bd8b47491e3b5, type: 3}
+    - target: {fileID: 5289743268377336459, guid: c9d3f027132904e4b86bd8b47491e3b5,
+        type: 3}
       propertyPath: m_Name
       value: Player_Inventory
       objectReference: {fileID: 0}
-    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5, type: 3}
+    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5,
+        type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5, type: 3}
+    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5, type: 3}
+    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5,
+        type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5, type: 3}
+    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5, type: 3}
+    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5, type: 3}
+    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5, type: 3}
+    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5,
+        type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5, type: 3}
+    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5, type: 3}
+    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5, type: 3}
+    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5, type: 3}
+    - target: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 269887918105729721}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5289743268377336459, guid: c9d3f027132904e4b86bd8b47491e3b5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6715493072209935107}
+    - targetCorrespondingSourceObject: {fileID: 5289743268377336459, guid: c9d3f027132904e4b86bd8b47491e3b5,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8188584720763726592}
   m_SourcePrefab: {fileID: 100100000, guid: c9d3f027132904e4b86bd8b47491e3b5, type: 3}
 --- !u!1 &1743737097756028308 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 5289743268377336459, guid: c9d3f027132904e4b86bd8b47491e3b5, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5289743268377336459, guid: c9d3f027132904e4b86bd8b47491e3b5,
+    type: 3}
   m_PrefabInstance: {fileID: 5862014216550889247}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &6715493072209935107
@@ -3639,7 +3683,8 @@ MonoBehaviour:
       type: {class: BagList, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
       data:
         m_Equipment:
-          m_Equipment: {fileID: 11400000, guid: a6fa2a187d5b64ca8a5ec0912715dfec, type: 2}
+          m_Equipment: {fileID: 11400000, guid: a6fa2a187d5b64ca8a5ec0912715dfec,
+            type: 2}
           m_EquipmentRuntime:
             m_Keys: 00000000010000000200000003000000040000000500000006000000
             m_Values:
@@ -3736,6 +3781,7 @@ MonoBehaviour:
       type: {class: GetGameObjectSelf, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
 --- !u!4 &3977134297135972744 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7380151076527158935, guid: c9d3f027132904e4b86bd8b47491e3b5,
+    type: 3}
   m_PrefabInstance: {fileID: 5862014216550889247}
   m_PrefabAsset: {fileID: 0}

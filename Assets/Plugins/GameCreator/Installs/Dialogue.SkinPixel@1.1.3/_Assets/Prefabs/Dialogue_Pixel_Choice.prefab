@@ -192,7 +192,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 143da93889b17443abe9e391b4ea0f48, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 143da93889b17443abe9e391b4ea0f48,
+      type: 3}
     m_PressedSprite: {fileID: 21300000, guid: 143da93889b17443abe9e391b4ea0f48, type: 3}
     m_SelectedSprite: {fileID: 21300000, guid: 2e19110eeb870493db49cee0f46eb140, type: 3}
     m_DisabledSprite: {fileID: 21300000, guid: b60b38da29bd64f9abe4d6a11d850222, type: 3}
@@ -384,7 +385,7 @@ MonoBehaviour:
   m_UseGraphicAlpha: 1
 --- !u!95 &7035654306793349216
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -401,7 +402,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &9115948458030557127
 GameObject:
   m_ObjectHideFlags: 0

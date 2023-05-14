@@ -407,6 +407,10 @@ MonoBehaviour:
   m_Progress: {fileID: 0}
   m_PrefabIngredientUI: {fileID: 0}
   m_IngredientsContent: {fileID: 0}
+  m_OnStart:
+    m_Instructions: []
+  m_OnComplete:
+    m_Instructions: []
   references:
     version: 2
     RefIds:

@@ -108,7 +108,7 @@ MonoBehaviour:
     m_Bits: 4294967295
 --- !u!95 &2692566920409219135
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -125,7 +125,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!114 &1648916624487311046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,7 +270,6 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 2449856206848655391
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 2449856206848655381
   references:
@@ -294,7 +293,8 @@ MonoBehaviour:
     - rid: 2449856206848655388
       type: {class: InputButtonAny, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
     - rid: 2449856206848655391
-      type: {class: InstructionTransitionRunOut, ns: GameCreator.Runtime.Transitions, asm: GameCreator.Runtime.Transitions}
+      type: {class: InstructionTransitionRunOut, ns: GameCreator.Runtime.Transitions,
+        asm: GameCreator.Runtime.Transitions}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -349,7 +349,6 @@ MonoBehaviour:
     - rid: 2449856223005376536
     - rid: 2449856223005376539
     - rid: 2449856223005376542
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 2449856223005376535
   references:
@@ -358,7 +357,8 @@ MonoBehaviour:
     - rid: 2449856223005376535
       type: {class: EventTransitionsReady, ns: GameCreator.Runtime.Transitions, asm: GameCreator.Runtime.Transitions}
     - rid: 2449856223005376536
-      type: {class: InstructionUICanvasGroupAlpha, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionUICanvasGroupAlpha, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -385,7 +385,8 @@ MonoBehaviour:
       data:
         m_Value: 0.25
     - rid: 2449856223005376539
-      type: {class: InstructionUICanvasGroupAlpha, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionUICanvasGroupAlpha, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -412,7 +413,8 @@ MonoBehaviour:
       data:
         m_Value: 1
     - rid: 2449856223005376542
-      type: {class: InstructionLogicRestartInstructions, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionLogicRestartInstructions, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0

@@ -476,13 +476,15 @@ MonoBehaviour:
   m_FromBag:
     m_Property:
       rid: 2531411172990648688
-  m_PrefabCoin: {fileID: 2997904746719975018, guid: f718f5e4a74b443ce8a84ffc0dea2cbf, type: 3}
+  m_PrefabCoin: {fileID: 2997904746719975018, guid: f718f5e4a74b443ce8a84ffc0dea2cbf,
+    type: 3}
   m_CoinsContent: {fileID: 5680554590801635451}
   references:
     version: 2
     RefIds:
     - rid: 2531411172990648688
-      type: {class: GetGameObjectInventoryTBagUI, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      type: {class: GetGameObjectInventoryTBagUI, ns: GameCreator.Runtime.Inventory,
+        asm: GameCreator.Runtime.Inventory}
       data:
         m_BagUI: {fileID: 2680586533525312112}
 --- !u!114 &1506467607361314648
@@ -614,7 +616,8 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 2531411330301689998
-      type: {class: InstructionInventoryMoveWealthToBag, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      type: {class: InstructionInventoryMoveWealthToBag, ns: GameCreator.Runtime.Inventory,
+        asm: GameCreator.Runtime.Inventory}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -628,7 +631,8 @@ MonoBehaviour:
     - rid: 2531411330301690000
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
     - rid: 2531411330301690001
-      type: {class: GetGameObjectInventoryTBagUI, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      type: {class: GetGameObjectInventoryTBagUI, ns: GameCreator.Runtime.Inventory,
+        asm: GameCreator.Runtime.Inventory}
       data:
         m_BagUI: {fileID: 2680586533525312112}
 --- !u!1 &2264044362686657397
@@ -760,7 +764,8 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 2531411812942348420
-      type: {class: InstructionInventoryMoveContentToBag, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      type: {class: InstructionInventoryMoveContentToBag, ns: GameCreator.Runtime.Inventory,
+        asm: GameCreator.Runtime.Inventory}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -775,7 +780,8 @@ MonoBehaviour:
     - rid: 2531411812942348422
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
     - rid: 2531411812942348423
-      type: {class: GetGameObjectInventoryTBagUI, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      type: {class: GetGameObjectInventoryTBagUI, ns: GameCreator.Runtime.Inventory,
+        asm: GameCreator.Runtime.Inventory}
       data:
         m_BagUI: {fileID: 2680586533525312112}
 --- !u!1 &2289211287586619764
@@ -996,6 +1002,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
@@ -1054,7 +1061,8 @@ MonoBehaviour:
   m_DefaultBag:
     m_Property:
       rid: 909411064985944203
-  m_PrefabCell: {fileID: 514771356244023552, guid: e532ad4f958f5445690f1e1af79b964e, type: 3}
+  m_PrefabCell: {fileID: 514771356244023552, guid: e532ad4f958f5445690f1e1af79b964e,
+    type: 3}
   m_CanDropOutside: 0
   m_MaxDropDistance: 1
   m_DropAmount: 0
@@ -1067,7 +1075,7 @@ MonoBehaviour:
       type: {class: GetGameObjectNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
 --- !u!95 &8158425432039315830
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1084,7 +1092,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &2518283033030574955
 GameObject:
   m_ObjectHideFlags: 0
@@ -1531,13 +1539,15 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 2449856591124234241
-      type: {class: GetGameObjectInventoryTBagUI, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      type: {class: GetGameObjectInventoryTBagUI, ns: GameCreator.Runtime.Inventory,
+        asm: GameCreator.Runtime.Inventory}
       data:
         m_BagUI: {fileID: 2680586533525312112}
     - rid: 2449856591124234242
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
     - rid: 2531411812942348420
-      type: {class: InstructionInventoryMoveContentToBag, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      type: {class: InstructionInventoryMoveContentToBag, ns: GameCreator.Runtime.Inventory,
+        asm: GameCreator.Runtime.Inventory}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -1606,7 +1616,8 @@ MonoBehaviour:
   m_FromBag:
     m_Property:
       rid: 2449856591124234240
-  m_PrefabCoin: {fileID: 2997904746719975018, guid: f718f5e4a74b443ce8a84ffc0dea2cbf, type: 3}
+  m_PrefabCoin: {fileID: 2997904746719975018, guid: f718f5e4a74b443ce8a84ffc0dea2cbf,
+    type: 3}
   m_CoinsContent: {fileID: 8310998665571013099}
   references:
     version: 2
@@ -1981,7 +1992,8 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 4854580812316672085
-      type: {class: InputValueVector2MousePosition, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      type: {class: InputValueVector2MousePosition, ns: GameCreator.Runtime.Common,
+        asm: GameCreator.Runtime.Core}
 --- !u!1 &4988430286225382711
 GameObject:
   m_ObjectHideFlags: 0
@@ -2202,7 +2214,8 @@ MonoBehaviour:
   m_DefaultBag:
     m_Property:
       rid: 2449856585309880336
-  m_PrefabCell: {fileID: 514771356244023552, guid: 970f58160e5b342818244c110b4414d9, type: 3}
+  m_PrefabCell: {fileID: 514771356244023552, guid: 970f58160e5b342818244c110b4414d9,
+    type: 3}
   m_CanDropOutside: 0
   m_MaxDropDistance: 1
   m_DropAmount: 0
@@ -3080,7 +3093,8 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 2
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 1
         m_Breakpoint: 0

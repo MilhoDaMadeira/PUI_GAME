@@ -47,14 +47,14 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 2449856049914052678
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 4167977712674930764
   references:
     version: 2
     RefIds:
     - rid: 2449856049914052678
-      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI, asm: GameCreator.Runtime.Dialogue}
+      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI,
+        asm: GameCreator.Runtime.Dialogue}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -76,7 +76,8 @@ MonoBehaviour:
     - rid: 4167977712674930766
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
     - rid: 5542639655363805285
-      type: {class: InputValueButtonGamepadPress, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      type: {class: InputValueButtonGamepadPress, ns: GameCreator.Runtime.Common,
+        asm: GameCreator.Runtime.Core}
       data:
         m_Button: 6
 --- !u!1 &4673354333260019400
@@ -126,14 +127,14 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 2449856049914052676
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 4167977712674930764
   references:
     version: 2
     RefIds:
     - rid: 2449856049914052676
-      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI, asm: GameCreator.Runtime.Dialogue}
+      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI,
+        asm: GameCreator.Runtime.Dialogue}
       data:
         m_IsExpanded: 1
         m_Breakpoint: 0
@@ -281,14 +282,14 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 2449856049914052675
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 4167977712674930764
   references:
     version: 2
     RefIds:
     - rid: 2449856049914052675
-      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI, asm: GameCreator.Runtime.Dialogue}
+      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI,
+        asm: GameCreator.Runtime.Dialogue}
       data:
         m_IsExpanded: 1
         m_Breakpoint: 0

@@ -392,7 +392,8 @@ MonoBehaviour:
     m_Property:
       rid: 1672297405756473965
   m_Layers: -1
-  m_Prefab: {fileID: 1587704238759455626, guid: 47754bfcaa7e54e4fa3eb8e317fcf69c, type: 3}
+  m_Prefab: {fileID: 1587704238759455626, guid: 47754bfcaa7e54e4fa3eb8e317fcf69c,
+    type: 3}
   m_Content: {fileID: 5474691820217398069}
   m_HiddenQuests: 0
   m_HideUntracked: 0

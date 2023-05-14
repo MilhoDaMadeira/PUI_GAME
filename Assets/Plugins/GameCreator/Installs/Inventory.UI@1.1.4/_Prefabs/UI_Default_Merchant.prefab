@@ -921,13 +921,15 @@ MonoBehaviour:
   m_FromBag:
     m_Property:
       rid: 2531411330301689867
-  m_PrefabCoin: {fileID: 2997904746719975018, guid: f718f5e4a74b443ce8a84ffc0dea2cbf, type: 3}
+  m_PrefabCoin: {fileID: 2997904746719975018, guid: f718f5e4a74b443ce8a84ffc0dea2cbf,
+    type: 3}
   m_CoinsContent: {fileID: 2649285159735158705}
   references:
     version: 2
     RefIds:
     - rid: 2531411330301689867
-      type: {class: GetGameObjectInventoryTBagUI, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      type: {class: GetGameObjectInventoryTBagUI, ns: GameCreator.Runtime.Inventory,
+        asm: GameCreator.Runtime.Inventory}
       data:
         m_BagUI: {fileID: 4818679091883230488}
 --- !u!114 &8114727152151767329
@@ -2663,12 +2665,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e848186ce5fc4ad2b9975864329d078e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PrefabCell: {fileID: 3141425027363049861, guid: b750a68d8d773414299da51a81f4f204, type: 3}
+  m_DefaultBag:
+    m_Property:
+      rid: 1000
+  m_PrefabCell: {fileID: 3141425027363049861, guid: b750a68d8d773414299da51a81f4f204,
+    type: 3}
   m_CanDropOutside: 0
   m_MaxDropDistance: 1
   m_DropAmount: 0
   m_FilterByParent: {fileID: 0}
   m_Content: {fileID: 5307279693864915008}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1000
+      type: {class: GetGameObjectNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
 --- !u!1 &4338043253001971591
 GameObject:
   m_ObjectHideFlags: 0
@@ -2720,12 +2731,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e848186ce5fc4ad2b9975864329d078e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PrefabCell: {fileID: 5999477245569473533, guid: 53631163ec0d24a299a0f1444085e99d, type: 3}
+  m_DefaultBag:
+    m_Property:
+      rid: 1000
+  m_PrefabCell: {fileID: 5999477245569473533, guid: 53631163ec0d24a299a0f1444085e99d,
+    type: 3}
   m_CanDropOutside: 0
   m_MaxDropDistance: 1
   m_DropAmount: 0
   m_FilterByParent: {fileID: 0}
   m_Content: {fileID: 614848957201556186}
+  references:
+    version: 2
+    RefIds:
+    - rid: 1000
+      type: {class: GetGameObjectNone, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
 --- !u!1 &4338043253343804959
 GameObject:
   m_ObjectHideFlags: 0
@@ -2790,6 +2810,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
@@ -2858,7 +2879,8 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 2531411812942348520
-      type: {class: InstructionCommonAudioUIPlay, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionCommonAudioUIPlay, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -2878,7 +2900,8 @@ MonoBehaviour:
       data:
         m_GameObject: {fileID: 0}
     - rid: 2531411812942348522
-      type: {class: InstructionCommonAudioUIPlay, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionCommonAudioUIPlay, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -2898,7 +2921,8 @@ MonoBehaviour:
       data:
         m_GameObject: {fileID: 0}
     - rid: 2531411812942348524
-      type: {class: InstructionCommonDebugText, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionCommonDebugText, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -2962,7 +2986,7 @@ CanvasGroup:
   m_IgnoreParentGroups: 0
 --- !u!95 &1498922581484886196
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2979,7 +3003,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &4367220971684982458
 GameObject:
   m_ObjectHideFlags: 0
@@ -4963,13 +4987,15 @@ MonoBehaviour:
   m_FromBag:
     m_Property:
       rid: 2531411330301689856
-  m_PrefabCoin: {fileID: 2997904746719975018, guid: f718f5e4a74b443ce8a84ffc0dea2cbf, type: 3}
+  m_PrefabCoin: {fileID: 2997904746719975018, guid: f718f5e4a74b443ce8a84ffc0dea2cbf,
+    type: 3}
   m_CoinsContent: {fileID: 9079457890923197214}
   references:
     version: 2
     RefIds:
     - rid: 2531411330301689856
-      type: {class: GetGameObjectInventoryTBagUI, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      type: {class: GetGameObjectInventoryTBagUI, ns: GameCreator.Runtime.Inventory,
+        asm: GameCreator.Runtime.Inventory}
       data:
         m_BagUI: {fileID: 58098129769548706}
 --- !u!114 &4892945286574972809

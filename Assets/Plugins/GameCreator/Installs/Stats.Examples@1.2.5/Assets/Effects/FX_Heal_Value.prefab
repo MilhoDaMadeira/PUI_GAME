@@ -167,6 +167,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -195,7 +196,7 @@ MonoBehaviour:
   m_PresetInfoIsWorld: 1
 --- !u!95 &380482083682147930
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -212,72 +213,98 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1001 &7134457153017574825
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c, type: 3}
+    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c,
+        type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c, type: 3}
+    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c, type: 3}
+    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c,
+        type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c, type: 3}
+    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c,
+        type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c, type: 3}
+    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c,
+        type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c, type: 3}
+    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c, type: 3}
+    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c,
+        type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c, type: 3}
+    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c,
+        type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c, type: 3}
+    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c, type: 3}
+    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c, type: 3}
+    - target: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c,
+        type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9203208799385083465, guid: 9bd56600eb4b84a93b172fdd12ddfa8c, type: 3}
+    - target: {fileID: 9203208799385083465, guid: 9bd56600eb4b84a93b172fdd12ddfa8c,
+        type: 3}
       propertyPath: m_Name
       value: FX_Heal_Value
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1378961448001314260}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9203208799385083465, guid: 9bd56600eb4b84a93b172fdd12ddfa8c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7279329937301682883}
   m_SourcePrefab: {fileID: 100100000, guid: 9bd56600eb4b84a93b172fdd12ddfa8c, type: 3}
 --- !u!4 &1375570928128648580 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8076551187961024557, guid: 9bd56600eb4b84a93b172fdd12ddfa8c,
+    type: 3}
   m_PrefabInstance: {fileID: 7134457153017574825}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &2070234570221136864 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 9203208799385083465, guid: 9bd56600eb4b84a93b172fdd12ddfa8c, type: 3}
+  m_CorrespondingSourceObject: {fileID: 9203208799385083465, guid: 9bd56600eb4b84a93b172fdd12ddfa8c,
+    type: 3}
   m_PrefabInstance: {fileID: 7134457153017574825}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &7279329937301682883
@@ -295,12 +322,12 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 5178594862144684210
-  m_InBackground: 1
   references:
     version: 2
     RefIds:
     - rid: 5178594862144684210
-      type: {class: InstructionUIChangeText, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionUIChangeText, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0

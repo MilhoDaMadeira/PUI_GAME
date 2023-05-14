@@ -97,14 +97,16 @@ MonoBehaviour:
       m_TMP: {fileID: 0}
     m_Price: {fileID: 0}
     m_ActiveHasProperties: {fileID: 2497621163311763314}
-    m_PrefabProperty: {fileID: 1640049667223199991, guid: 19e8193ec288f49bd8f3538b43242e27, type: 3}
+    m_PrefabProperty: {fileID: 1640049667223199991, guid: 19e8193ec288f49bd8f3538b43242e27,
+      type: 3}
     m_PropertiesContent: {fileID: 4496056111810079154}
     m_ActiveHasSockets: {fileID: 5989511935251298376}
     m_SocketsCount:
       m_Type: 0
       m_Text: {fileID: 0}
       m_TMP: {fileID: 0}
-    m_PrefabSocket: {fileID: 1640049667223199991, guid: 20a7b7ff39f9941dc910bb911526b6fd, type: 3}
+    m_PrefabSocket: {fileID: 1640049667223199991, guid: 20a7b7ff39f9941dc910bb911526b6fd,
+      type: 3}
     m_SocketsContent: {fileID: 146278651317629255}
     m_ActiveContent: {fileID: 0}
     m_ActiveEquipped: {fileID: 0}
@@ -121,7 +123,8 @@ MonoBehaviour:
     m_TMP: {fileID: 0}
   m_ActiveIfInProgress: {fileID: 6127136460672912440}
   m_Progress: {fileID: 6183844059873494019}
-  m_PrefabIngredientUI: {fileID: 8705241855260658190, guid: f93c26a95b19b4055819cb6d6cbc5a40, type: 3}
+  m_PrefabIngredientUI: {fileID: 8705241855260658190, guid: f93c26a95b19b4055819cb6d6cbc5a40,
+    type: 3}
   m_IngredientsContent: {fileID: 6573771611514616927}
   m_OnStart:
     m_Instructions:
@@ -137,7 +140,8 @@ MonoBehaviour:
       data:
         m_Value: 1
     - rid: 2531411812942348494
-      type: {class: InstructionCommonAudioUIPlay, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionCommonAudioUIPlay, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -157,7 +161,8 @@ MonoBehaviour:
       data:
         m_GameObject: {fileID: 0}
     - rid: 2531411812942348496
-      type: {class: InstructionCommonAudioUIPlay, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionCommonAudioUIPlay, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -178,7 +183,7 @@ MonoBehaviour:
         m_GameObject: {fileID: 0}
 --- !u!95 &822853144591921392
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -195,7 +200,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!225 &610947763465678686
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1459,6 +1464,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
@@ -1518,7 +1524,8 @@ MonoBehaviour:
     m_FilterByParent: {fileID: 0}
     m_SelectedUI: {fileID: 7380319006453032384}
     m_CraftingRecipesContent: {fileID: 6358325153725376416}
-    m_CraftingItemUIPrefab: {fileID: 6765160483820670241, guid: 56e86fe9d566c4e41b3940a376d2c582, type: 3}
+    m_CraftingItemUIPrefab: {fileID: 6765160483820670241, guid: 56e86fe9d566c4e41b3940a376d2c582,
+      type: 3}
   m_DismantlingUI:
     m_FilterByParent: {fileID: 0}
     m_SelectedUI: {fileID: 0}
@@ -1526,7 +1533,7 @@ MonoBehaviour:
     m_DismantlingItemUIPrefab: {fileID: 0}
 --- !u!95 &6187483828944624939
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1543,7 +1550,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!225 &3418019812125734446
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1909,7 +1916,8 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 2531411330301690801
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
