@@ -437,7 +437,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec47fbe84cdc4a5ebd52e6c7b33e99f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PrefabCoin: {fileID: 2997904746719975018, guid: f718f5e4a74b443ce8a84ffc0dea2cbf, type: 3}
+  m_PrefabCoin: {fileID: 2997904746719975018, guid: f718f5e4a74b443ce8a84ffc0dea2cbf,
+    type: 3}
   m_CoinsContent: {fileID: 3358772781855308974}
 --- !u!114 &474564234762988617
 MonoBehaviour:
@@ -812,7 +813,8 @@ MonoBehaviour:
       m_Type: 0
       m_Text: {fileID: 0}
       m_TMP: {fileID: 0}
-    m_PrefabSocket: {fileID: 2774859073331058120, guid: c93b4007bff714b15a8a5cdf01e509aa, type: 3}
+    m_PrefabSocket: {fileID: 2774859073331058120, guid: c93b4007bff714b15a8a5cdf01e509aa,
+      type: 3}
     m_SocketsContent: {fileID: 7979243665292726842}
     m_ActiveContent: {fileID: 7200234001554733273}
     m_ActiveEquipped: {fileID: 8844936314362253482}
@@ -829,6 +831,7 @@ MonoBehaviour:
     m_BuyPrice: {fileID: 0}
     m_ButtonSell: {fileID: 0}
     m_SellPrice: {fileID: 0}
+    m_InactiveIfEmpty: {fileID: 0}
   m_ActiveSelection: {fileID: 1722718050908722786}
   m_CanDrag: 1
   m_OnDrop: 0
@@ -848,7 +851,8 @@ MonoBehaviour:
         m_Value:
           m_Value: 1
     - rid: 2531411330301689870
-      type: {class: GetGameObjectInventoryTBagUI, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      type: {class: GetGameObjectInventoryTBagUI, ns: GameCreator.Runtime.Inventory,
+        asm: GameCreator.Runtime.Inventory}
       data:
         m_BagUI: {fileID: 0}
 --- !u!222 &8897856304675795065
@@ -918,7 +922,8 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.01
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: c6398fdf4ec3d47319532f9968c45721, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: c6398fdf4ec3d47319532f9968c45721,
+      type: 3}
     m_PressedSprite: {fileID: 21300000, guid: 58e19ce7432554aa197bee6942aae7e3, type: 3}
     m_SelectedSprite: {fileID: 21300000, guid: 737b8f57bd8b94d2d80e386537ac6a9c, type: 3}
     m_DisabledSprite: {fileID: 21300000, guid: b09281e8546bd4bf9a085f0e2ea52d9d, type: 3}

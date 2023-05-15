@@ -1063,7 +1063,8 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 5178594725893242945
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 1
         m_Breakpoint: 0
@@ -1178,7 +1179,8 @@ MonoBehaviour:
   m_Show: 30
   m_ShowHidden: 0
   m_TasksContent: {fileID: 3392107588605551191}
-  m_TaskPrefab: {fileID: 2199491953578882162, guid: 411f0c89f5fcb4159af382f4397baa43, type: 3}
+  m_TaskPrefab: {fileID: 2199491953578882162, guid: 411f0c89f5fcb4159af382f4397baa43,
+    type: 3}
   m_ActiveIfSelected: {fileID: 1806394493}
 --- !u!1 &6263969627456094894
 GameObject:
@@ -1670,7 +1672,8 @@ MonoBehaviour:
     m_LocalList: {fileID: 0}
     m_GlobalList: {fileID: 11400000, guid: 0aee82cd347a2494fadedf98020d07b6, type: 2}
   m_Content: {fileID: 6263969628585865447}
-  m_Prefab: {fileID: 5338529070647690583, guid: 69880f859019a4039af4d9d379800454, type: 3}
+  m_Prefab: {fileID: 5338529070647690583, guid: 69880f859019a4039af4d9d379800454,
+    type: 3}
   references:
     version: 2
     RefIds:
@@ -1910,7 +1913,8 @@ MonoBehaviour:
     version: 2
     RefIds:
     - rid: 5178594855030358048
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0

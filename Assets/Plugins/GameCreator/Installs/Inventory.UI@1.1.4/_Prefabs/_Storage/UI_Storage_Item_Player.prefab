@@ -109,6 +109,7 @@ MonoBehaviour:
     m_BuyPrice: {fileID: 0}
     m_ButtonSell: {fileID: 0}
     m_SellPrice: {fileID: 0}
+    m_InactiveIfEmpty: {fileID: 0}
   m_ActiveSelection: {fileID: 0}
   m_CanDrag: 0
   m_OnDrop: 0
@@ -128,7 +129,8 @@ MonoBehaviour:
         m_Value:
           m_Value: 1
     - rid: 2449856591124234258
-      type: {class: GetGameObjectInventoryBagOpen, ns: GameCreator.Runtime.Inventory, asm: GameCreator.Runtime.Inventory}
+      type: {class: GetGameObjectInventoryBagOpen, ns: GameCreator.Runtime.Inventory,
+        asm: GameCreator.Runtime.Inventory}
 --- !u!222 &6888730038241514370
 CanvasRenderer:
   m_ObjectHideFlags: 0

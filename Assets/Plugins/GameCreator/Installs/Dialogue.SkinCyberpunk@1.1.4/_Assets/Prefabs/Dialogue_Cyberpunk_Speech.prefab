@@ -157,14 +157,14 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 2449856049914052675
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 4167977712674930764
   references:
     version: 2
     RefIds:
     - rid: 2449856049914052675
-      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI, asm: GameCreator.Runtime.Dialogue}
+      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI,
+        asm: GameCreator.Runtime.Dialogue}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -236,14 +236,14 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 2449856049914052676
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 4167977712674930764
   references:
     version: 2
     RefIds:
     - rid: 2449856049914052676
-      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI, asm: GameCreator.Runtime.Dialogue}
+      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI,
+        asm: GameCreator.Runtime.Dialogue}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -315,14 +315,14 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 2449856049914052678
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 4167977712674930764
   references:
     version: 2
     RefIds:
     - rid: 2449856049914052678
-      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI, asm: GameCreator.Runtime.Dialogue}
+      type: {class: InstructionDialogueUISkip, ns: GameCreator.Runtime.Dialogue.UnityUI,
+        asm: GameCreator.Runtime.Dialogue}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -344,7 +344,8 @@ MonoBehaviour:
     - rid: 4167977712674930766
       type: {class: GetGameObjectPlayer, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
     - rid: 5542639655363805285
-      type: {class: InputValueButtonGamepadPress, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      type: {class: InputValueButtonGamepadPress, ns: GameCreator.Runtime.Common,
+        asm: GameCreator.Runtime.Core}
       data:
         m_Button: 6
 --- !u!1 &7763762668418715983
@@ -531,7 +532,7 @@ MonoBehaviour:
   m_Skip: {fileID: 8305378463164807655}
 --- !u!95 &6339412469461501868
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -548,7 +549,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &8305378463164807655
 GameObject:
   m_ObjectHideFlags: 0

@@ -96,7 +96,8 @@ MonoBehaviour:
       rid: 5178594815742836897
   m_Types: -1
   m_Container: {fileID: 5639493552208572263}
-  m_PrefabStatusEffect: {fileID: 2737127296850156851, guid: f2da03acff2744af983285d3e38e99a7, type: 3}
+  m_PrefabStatusEffect: {fileID: 2737127296850156851, guid: f2da03acff2744af983285d3e38e99a7,
+    type: 3}
   references:
     version: 2
     RefIds:
@@ -1338,6 +1339,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0

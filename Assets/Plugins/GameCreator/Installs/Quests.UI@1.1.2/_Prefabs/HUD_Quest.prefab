@@ -288,7 +288,8 @@ MonoBehaviour:
   m_Show: 2
   m_ShowHidden: 0
   m_TasksContent: {fileID: 402859932501832612}
-  m_TaskPrefab: {fileID: 4001688992878022363, guid: aa647d9bee5ae4be0a0620ea82505a5e, type: 3}
+  m_TaskPrefab: {fileID: 4001688992878022363, guid: aa647d9bee5ae4be0a0620ea82505a5e,
+    type: 3}
 --- !u!1 &402859932098235675
 GameObject:
   m_ObjectHideFlags: 0

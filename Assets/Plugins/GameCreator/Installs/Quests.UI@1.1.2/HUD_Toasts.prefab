@@ -213,7 +213,7 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 --- !u!95 &3787437638175731907
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -230,7 +230,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!225 &3787437638175731904
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -402,7 +402,7 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 --- !u!95 &3787437638352574426
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -419,7 +419,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!225 &3787437638352574429
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -582,7 +582,6 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 3872144699144536230
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 3872144699144536229
   references:
@@ -591,7 +590,8 @@ MonoBehaviour:
     - rid: 3872144699144536229
       type: {class: EventOnStart, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
     - rid: 3872144699144536230
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -627,14 +627,14 @@ MonoBehaviour:
     - rid: 3872144699144536265
     - rid: 3872144699144536242
     - rid: 3872144699144536245
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 3872144699144536254
   references:
     version: 2
     RefIds:
     - rid: 3872144699144536242
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -654,7 +654,8 @@ MonoBehaviour:
       data:
         m_Value: 1
     - rid: 3872144699144536245
-      type: {class: InstructionUIChangeText, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionUIChangeText, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -695,7 +696,8 @@ MonoBehaviour:
     - rid: 3872144699144536257
       type: {class: GetQuestLastAbandoned, ns: GameCreator.Runtime.Quests, asm: GameCreator.Runtime.Quests}
     - rid: 3872144699144536265
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -873,7 +875,7 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 --- !u!95 &3787437638636433315
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -890,7 +892,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!225 &3787437638636433314
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1225,7 +1227,6 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 3872144699144536230
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 3872144699144536229
   references:
@@ -1234,7 +1235,8 @@ MonoBehaviour:
     - rid: 3872144699144536229
       type: {class: EventOnStart, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
     - rid: 3872144699144536230
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -1270,7 +1272,6 @@ MonoBehaviour:
     - rid: 3872144699144536242
     - rid: 3872144699144536262
     - rid: 3872144699144536245
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 3872144699144536234
   references:
@@ -1294,7 +1295,8 @@ MonoBehaviour:
       data:
         m_Quest: {fileID: 0}
     - rid: 3872144699144536242
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -1314,7 +1316,8 @@ MonoBehaviour:
       data:
         m_Value: 0
     - rid: 3872144699144536245
-      type: {class: InstructionUIChangeText, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionUIChangeText, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -1338,7 +1341,8 @@ MonoBehaviour:
     - rid: 3872144699144536248
       type: {class: GetQuestLastCompleted, ns: GameCreator.Runtime.Quests, asm: GameCreator.Runtime.Quests}
     - rid: 3872144699144536262
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -1411,7 +1415,6 @@ MonoBehaviour:
   m_Instructions:
     m_Instructions:
     - rid: 3872144699144536230
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 3872144699144536229
   references:
@@ -1420,7 +1423,8 @@ MonoBehaviour:
     - rid: 3872144699144536229
       type: {class: EventOnStart, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
     - rid: 3872144699144536230
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -1456,14 +1460,14 @@ MonoBehaviour:
     - rid: 3872144699144536268
     - rid: 3872144699144536242
     - rid: 3872144699144536245
-  m_InBackground: 1
   m_TriggerEvent:
     rid: 3872144699144536258
   references:
     version: 2
     RefIds:
     - rid: 3872144699144536242
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -1483,7 +1487,8 @@ MonoBehaviour:
       data:
         m_Value: 1
     - rid: 3872144699144536245
-      type: {class: InstructionUIChangeText, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionUIChangeText, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -1524,7 +1529,8 @@ MonoBehaviour:
     - rid: 3872144699144536261
       type: {class: GetQuestLastFailed, ns: GameCreator.Runtime.Quests, asm: GameCreator.Runtime.Quests}
     - rid: 3872144699144536268
-      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting, asm: GameCreator.Runtime.Core}
+      type: {class: InstructionGameObjectSetActive, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0

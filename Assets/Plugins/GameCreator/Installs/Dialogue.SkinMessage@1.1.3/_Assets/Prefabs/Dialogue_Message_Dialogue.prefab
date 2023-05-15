@@ -164,7 +164,8 @@ MonoBehaviour:
       data:
         m_Key: 41
     - rid: 6638674339394748475
-      type: {class: InstructionDialogueUIChoiceIndex, ns: GameCreator.Runtime.Dialogue.UnityUI, asm: GameCreator.Runtime.Dialogue}
+      type: {class: InstructionDialogueUIChoiceIndex, ns: GameCreator.Runtime.Dialogue.UnityUI,
+        asm: GameCreator.Runtime.Dialogue}
       data:
         m_IsExpanded: 0
         m_Breakpoint: 0
@@ -248,7 +249,8 @@ MonoBehaviour:
       data:
         m_Key: 45
     - rid: 6638674339394748475
-      type: {class: InstructionDialogueUIChoiceIndex, ns: GameCreator.Runtime.Dialogue.UnityUI, asm: GameCreator.Runtime.Dialogue}
+      type: {class: InstructionDialogueUIChoiceIndex, ns: GameCreator.Runtime.Dialogue.UnityUI,
+        asm: GameCreator.Runtime.Dialogue}
       data:
         m_IsExpanded: 1
         m_Breakpoint: 0
@@ -332,7 +334,8 @@ MonoBehaviour:
       data:
         m_Key: 44
     - rid: 6638674339394748475
-      type: {class: InstructionDialogueUIChoiceIndex, ns: GameCreator.Runtime.Dialogue.UnityUI, asm: GameCreator.Runtime.Dialogue}
+      type: {class: InstructionDialogueUIChoiceIndex, ns: GameCreator.Runtime.Dialogue.UnityUI,
+        asm: GameCreator.Runtime.Dialogue}
       data:
         m_IsExpanded: 1
         m_Breakpoint: 0
@@ -629,7 +632,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Active: {fileID: 6803370199406376004}
   m_ContentChoice: {fileID: 6803370199406376011}
-  m_PrefabChoice: {fileID: 988638181297799346, guid: 3d6b653859d9d47d9b63e1cabad70a95, type: 3}
+  m_PrefabChoice: {fileID: 988638181297799346, guid: 3d6b653859d9d47d9b63e1cabad70a95,
+    type: 3}
 --- !u!114 &6803370199406376009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -781,7 +785,7 @@ MonoBehaviour:
   m_DefaultSpeech: {fileID: 11400000, guid: 672efd6c79fdd42a98c311e479eae4cc, type: 2}
 --- !u!95 &6747272553826749875
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -798,7 +802,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!225 &5234121137257757648
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1178,7 +1182,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Content: {fileID: 6803370201359091998}
-  m_Prefab: {fileID: 7763762668613323443, guid: 3b0f53d80f541416e9f33a5c9f57e2d8, type: 3}
+  m_Prefab: {fileID: 7763762668613323443, guid: 3b0f53d80f541416e9f33a5c9f57e2d8,
+    type: 3}
   m_KeepAmount: 0
   m_MaxAmount: 50
 --- !u!114 &4002506858231011502
@@ -1279,7 +1284,8 @@ MonoBehaviour:
       data:
         m_Key: 43
     - rid: 6638674339394748475
-      type: {class: InstructionDialogueUIChoiceIndex, ns: GameCreator.Runtime.Dialogue.UnityUI, asm: GameCreator.Runtime.Dialogue}
+      type: {class: InstructionDialogueUIChoiceIndex, ns: GameCreator.Runtime.Dialogue.UnityUI,
+        asm: GameCreator.Runtime.Dialogue}
       data:
         m_IsExpanded: 1
         m_Breakpoint: 0
@@ -1363,7 +1369,8 @@ MonoBehaviour:
       data:
         m_Key: 42
     - rid: 6638674339394748475
-      type: {class: InstructionDialogueUIChoiceIndex, ns: GameCreator.Runtime.Dialogue.UnityUI, asm: GameCreator.Runtime.Dialogue}
+      type: {class: InstructionDialogueUIChoiceIndex, ns: GameCreator.Runtime.Dialogue.UnityUI,
+        asm: GameCreator.Runtime.Dialogue}
       data:
         m_IsExpanded: 1
         m_Breakpoint: 0
