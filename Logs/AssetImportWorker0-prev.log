@@ -15,7 +15,7 @@ C:/Users/User/Documents/GitHub/PUI_GAME
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49981
+50391
 Successfully changed project path to: C:/Users/User/Documents/GitHub/PUI_GAME
 C:/Users/User/Documents/GitHub/PUI_GAME
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/User/Documents/GitHub/PUI_GAME
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4200] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3758813757 [EditorId] 3758813757 [Version] 1048832 [Id] WindowsEditor(7,Toshiba) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2020] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3292474431 [EditorId] 3292474431 [Version] 1048832 [Id] WindowsEditor(7,Toshiba) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4200] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3758813757 [EditorId] 3758813757 [Version] 1048832 [Id] WindowsEditor(7,Toshiba) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2020] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 3292474431 [EditorId] 3292474431 [Version] 1048832 [Id] WindowsEditor(7,Toshiba) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 20.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 20.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.5f1 (551d45108343)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Resources/UnitySubsystems
@@ -68,41 +68,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56640
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016091 seconds.
-- Loaded All Assemblies, in  0.629 seconds
+Registered in 0.015186 seconds.
+- Loaded All Assemblies, in  0.581 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.558 seconds
+- Finished resetting the current domain, in  0.471 seconds
 Domain Reload Profiling:
-	ReloadAssembly (343ms)
-		BeginReloadAssembly (124ms)
+	ReloadAssembly (329ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (120ms)
+			LoadAssemblies (126ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (271ms)
-				TypeCache.Initialize (269ms)
-					TypeCache.ScanAssembly (266ms)
+			SetupTypeCache (238ms)
+				TypeCache.Initialize (237ms)
+					TypeCache.ScanAssembly (234ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (433ms)
+			SetupLoadedEditorAssemblies (364ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (15ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (12ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (303ms)
-				ProcessInitializeOnLoadMethodAttributes (93ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -112,52 +112,52 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\PUI_GAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\PUI_GAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.177 seconds
-Refreshing native plugins compatible for Editor in 10.10 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.956 seconds
+Refreshing native plugins compatible for Editor in 7.10 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-PUI ASSIGNMENT #2
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.774 seconds
+- Finished resetting the current domain, in  1.994 seconds
 Domain Reload Profiling:
-	ReloadAssembly (443ms)
-		BeginReloadAssembly (240ms)
+	ReloadAssembly (408ms)
+		BeginReloadAssembly (207ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (39ms)
-		LoadAllAssembliesAndSetupDomain (1726ms)
-			LoadAssemblies (545ms)
+			CreateAndSetChildDomain (36ms)
+		LoadAllAssembliesAndSetupDomain (1543ms)
+			LoadAssemblies (474ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1278ms)
-				TypeCache.Initialize (685ms)
-					TypeCache.ScanAssembly (677ms)
-				ResolveRequiredComponents (24ms)
+			SetupTypeCache (1147ms)
+				TypeCache.Initialize (597ms)
+					TypeCache.ScanAssembly (589ms)
+				ResolveRequiredComponents (23ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (2353ms)
+			SetupLoadedEditorAssemblies (1667ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (10ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (241ms)
-				ProcessInitializeOnLoadAttributes (1188ms)
-				ProcessInitializeOnLoadMethodAttributes (877ms)
-				AfterProcessingInitializeOnLoad (20ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (892ms)
+				ProcessInitializeOnLoadMethodAttributes (591ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 12.59 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 6.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 8594 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (364.2 KB). Loaded Objects now: 9081.
+Unloading 31 unused Assets / (364.1 KB). Loaded Objects now: 9081.
 Memory consumption went from 1.36 GB to 1.36 GB.
-Total: 13.460300 ms (FindLiveObjects: 1.744500 ms CreateObjectMapping: 1.575000 ms MarkObjects: 9.781400 ms  DeleteObjects: 0.357000 ms)
+Total: 14.629300 ms (FindLiveObjects: 1.739000 ms CreateObjectMapping: 1.562500 ms MarkObjects: 10.660200 ms  DeleteObjects: 0.665300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -172,22 +172,105 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3259.564048 seconds.
-  path: Assets/POLYGON city pack/Prefabs/Buildings/Building_K_prefab.prefab
-  artifactKey: Guid(ac16a24c584766f4e905adc7db85b93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Prefabs/Buildings/Building_K_prefab.prefab using Guid(ac16a24c584766f4e905adc7db85b93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240a6803300385b6f847c828a1646b41') in 0.782849 seconds 
+  Time since last request: 3420.044071 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/traffic sign 4.png
+  artifactKey: Guid(3c7d3bf30059e6a4d8494df864c80ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/traffic sign 4.png using Guid(3c7d3bf30059e6a4d8494df864c80ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d58b27a2f23a10a3aa9e3d49f4ab72') in 0.110205 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 41
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/POLYGON city pack/Prefabs/Buildings/Building_T_prefab.prefab
-  artifactKey: Guid(90045d2ccf59b6f45afd8bab908bb038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Prefabs/Buildings/Building_T_prefab.prefab using Guid(90045d2ccf59b6f45afd8bab908bb038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81094217b7a1e0bc8810358f780614aa') in 0.050205 seconds 
+  Time since last request: 0.000040 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/traffic sign 5.png
+  artifactKey: Guid(627f2e2486fd7dd41a61eba42ec0f2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/traffic sign 5.png using Guid(627f2e2486fd7dd41a61eba42ec0f2a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0e01a25dffa33e8b8116747353197c') in 0.032933 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 22
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi cancelada devido a uma saída do módulo ou a um pedido da aplicação.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 72.774377 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/traffic sign speed.fbx
+  artifactKey: Guid(ef50263e655d691489d780fa88bafbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/traffic signs FBX/traffic sign speed.fbx using Guid(ef50263e655d691489d780fa88bafbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abbf6e9946f75eddf595dc6417ed66b') in 0.646384 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/traffic warning stand texture.png
+  artifactKey: Guid(1daf544f1efadb744b1ccd54710ebbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/traffic warning stand texture.png using Guid(1daf544f1efadb744b1ccd54710ebbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e41861501ea9c0e3eb70840e828c27') in 0.016754 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.808402 seconds.
+  path: Assets/PolygonKids/Models/SM_Chr_Attach_Hat_Sunshade_01.fbx
+  artifactKey: Guid(2768baf95f344ed43bb06fcb5c33c625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Models/SM_Chr_Attach_Hat_Sunshade_01.fbx using Guid(2768baf95f344ed43bb06fcb5c33c625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67785d0c08693e96d511999dce42b27a') in 0.029220 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 7.022585 seconds.
+  path: Assets/Plugins/GameCreator/Installs/GameCreator.Blockout@1.4.10/Meshes/Column_1x1.fbx
+  artifactKey: Guid(3dc496ef0cab14292889eabeab5839a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GameCreator/Installs/GameCreator.Blockout@1.4.10/Meshes/Column_1x1.fbx using Guid(3dc496ef0cab14292889eabeab5839a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a1b8109814e2ff2e66441c64bb02d5') in 0.053262 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Gas_pump_texture.png
+  artifactKey: Guid(eb51553d840fc824a9b6b45fefb28750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/POLYGON city pack/Meshes,textures/Shops_FBX/Gas_pump_texture.png using Guid(eb51553d840fc824a9b6b45fefb28750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3daed773d65abb77015ab1b67796a88e') in 0.014404 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.265951 seconds.
+  path: Assets/PolygonKids/Models/SM_Prop_Umbrella_01_Open.fbx
+  artifactKey: Guid(ea01cc8256178e541b3173e2ef1fbc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Models/SM_Prop_Umbrella_01_Open.fbx using Guid(ea01cc8256178e541b3173e2ef1fbc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0a9e88491ab34834367b8aed4b2b63') in 0.036102 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PolygonKids/Models/SM_Prop_Umbrella_02_Open_Convex 1.asset
+  artifactKey: Guid(5f132b309cdf3f74986562b89eb530d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Models/SM_Prop_Umbrella_02_Open_Convex 1.asset using Guid(5f132b309cdf3f74986562b89eb530d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b5e9f1e6a9cb567dbc31d6ce96972a') in 0.013334 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/PolygonKids/Models/SM_Prop_Umbrella_01_Open_Convex 1.asset
+  artifactKey: Guid(291a41d0dad15684e9eea25630c9ecfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Models/SM_Prop_Umbrella_01_Open_Convex 1.asset using Guid(291a41d0dad15684e9eea25630c9ecfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b65a49849f78fa4edc900193445e281') in 0.013700 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonKids/Models/SM_Prop_Umbrella_04_Closed_Convex.asset
+  artifactKey: Guid(e80f8d3f1f2d5ff488b27499c6ac9cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Models/SM_Prop_Umbrella_04_Closed_Convex.asset using Guid(e80f8d3f1f2d5ff488b27499c6ac9cae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c62153d7a0550b668c18563a4a2f26') in 0.001989 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PolygonKids/Models/SM_Prop_Umbrella_03_Closed_Convex.asset
+  artifactKey: Guid(7d29012d97ec06a4e90e8175a87fb4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Models/SM_Prop_Umbrella_03_Closed_Convex.asset using Guid(7d29012d97ec06a4e90e8175a87fb4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e327ae707469e04411ed570b32876d5') in 0.002227 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PolygonKids/Models/SM_Prop_Umbrella_03_Closed_Convex 1.asset
+  artifactKey: Guid(691530621e326194f88326f19744ddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonKids/Models/SM_Prop_Umbrella_03_Closed_Convex 1.asset using Guid(691530621e326194f88326f19744ddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cbaa65e5aa9a3cda43740fa02e90bba') in 0.017759 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
