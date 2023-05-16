@@ -15,7 +15,7 @@ C:/Users/User/Documents/GitHub/PUI_GAME
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61433
+58732
 Successfully changed project path to: C:/Users/User/Documents/GitHub/PUI_GAME
 C:/Users/User/Documents/GitHub/PUI_GAME
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/User/Documents/GitHub/PUI_GAME
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [39236] Host "[IP] 10.2.159.71 [Port] 0 [Flags] 2 [Guid] 879308 [EditorId] 879308 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-CDC89MLL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2832] Host "[IP] 192.168.1.164 [Port] 0 [Flags] 2 [Guid] 3325904740 [EditorId] 3325904740 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-CDC89MLL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [39236] Host "[IP] 10.2.159.71 [Port] 0 [Flags] 2 [Guid] 879308 [EditorId] 879308 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-CDC89MLL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [2832] Host "[IP] 192.168.1.164 [Port] 0 [Flags] 2 [Guid] 3325904740 [EditorId] 3325904740 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-CDC89MLL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 41.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 21.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.5f1 (551d45108343)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010637 seconds.
-- Loaded All Assemblies, in  0.536 seconds
+Registered in 0.009740 seconds.
+- Loaded All Assemblies, in  0.504 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.328 seconds
+- Finished resetting the current domain, in  0.335 seconds
 Domain Reload Profiling:
-	ReloadAssembly (337ms)
-		BeginReloadAssembly (180ms)
+	ReloadAssembly (274ms)
+		BeginReloadAssembly (121ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
+			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (173ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (186ms)
-				TypeCache.Initialize (184ms)
-					TypeCache.ScanAssembly (182ms)
+			SetupTypeCache (221ms)
+				TypeCache.Initialize (220ms)
+					TypeCache.ScanAssembly (217ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (255ms)
+			SetupLoadedEditorAssemblies (264ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (10ms)
+				SetLoadedEditorAssemblies (9ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (55ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,77 +111,51 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\PUI_GAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Documents\GitHub\PUI_GAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.941 seconds
-Refreshing native plugins compatible for Editor in 8.69 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.336 seconds
+Refreshing native plugins compatible for Editor in 3.98 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\User\Documents\GitHub\PUI_GAME\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <697c5b3fd45741b99b7cab46a4b7b6ac>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <00d63564201b48698d51680c10078897>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-UnityEngine.ScriptableObject:CreateInstance (System.Type)
-UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
-UnityEditor.Tools:get_get ()
-UnityEditor.Tools:get_visibleLayers ()
-UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs:121)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.unity.animation.rigging@1.2.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
-
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-PUI ASSIGNMENT #2
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.830 seconds
+- Finished resetting the current domain, in  1.113 seconds
 Domain Reload Profiling:
-	ReloadAssembly (334ms)
-		BeginReloadAssembly (191ms)
+	ReloadAssembly (243ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		LoadAllAssembliesAndSetupDomain (2603ms)
-			LoadAssemblies (692ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (21ms)
+		LoadAllAssembliesAndSetupDomain (1089ms)
+			LoadAssemblies (367ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2010ms)
-				TypeCache.Initialize (590ms)
-					TypeCache.ScanAssembly (580ms)
-				ResolveRequiredComponents (20ms)
+			SetupTypeCache (791ms)
+				TypeCache.Initialize (462ms)
+					TypeCache.ScanAssembly (454ms)
+				ResolveRequiredComponents (10ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1583ms)
+			SetupLoadedEditorAssemblies (904ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (1067ms)
-				ProcessInitializeOnLoadMethodAttributes (396ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (477ms)
+				ProcessInitializeOnLoadMethodAttributes (332ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
-Refreshing native plugins compatible for Editor in 5.65 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8589 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (364.1 KB). Loaded Objects now: 9060.
+Unloading 8602 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (362.5 KB). Loaded Objects now: 9073.
 Memory consumption went from 1.35 GB to 1.35 GB.
-Total: 8.105000 ms (FindLiveObjects: 0.929900 ms CreateObjectMapping: 0.604800 ms MarkObjects: 6.134400 ms  DeleteObjects: 0.434400 ms)
+Total: 5.622900 ms (FindLiveObjects: 0.727900 ms CreateObjectMapping: 0.489600 ms MarkObjects: 4.210900 ms  DeleteObjects: 0.193300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -197,492 +171,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 194658.733591 seconds.
-  path: Assets/Assignment#2Stuff/Game Assignment #2/ReflectionProbe-0.exr
-  artifactKey: Guid(d6f9eaaeb47d65b46b0263706cb9b795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assignment#2Stuff/Game Assignment #2/ReflectionProbe-0.exr using Guid(d6f9eaaeb47d65b46b0263706cb9b795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a6bd8aaa8e0693074d8f1fb5a76def') in 0.488540 seconds 
+  Time since last request: 383351.102598 seconds.
+  path: Assets/Assignment#2Stuff/Prefabs/Objects/Tutorial Objects/Tutorial Enter.prefab
+  artifactKey: Guid(1eeb0364fa7902244aaaf4adc42d0175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assignment#2Stuff/Prefabs/Objects/Tutorial Objects/Tutorial Enter.prefab using Guid(1eeb0364fa7902244aaaf4adc42d0175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708a23630ea0a29ed4028731513db025') in 0.376342 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.902665 seconds.
-  path: Assets/Assignment#2Stuff/Prefabs/Player 2.prefab
-  artifactKey: Guid(ee65a07bf2be7b441b4a5586f045d116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assignment#2Stuff/Prefabs/Player 2.prefab using Guid(ee65a07bf2be7b441b4a5586f045d116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0985628869e1128f72a92494bd9431a') in 2.074740 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1310
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Assignment#2Stuff/Prefabs
-  artifactKey: Guid(f9e15ab3d292ce941b53da6716ed602f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assignment#2Stuff/Prefabs using Guid(f9e15ab3d292ce941b53da6716ed602f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b6993af72ebb18f6e85ea625e7db67') in 0.001164 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 847.869017 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2cd121f3a9619f8768fc55c32cbb8c') in 1.787599 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 412.912777 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Alien_01.prefab
-  artifactKey: Guid(1c707acb0c61353498f5e086e6db198c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Alien_01.prefab using Guid(1c707acb0c61353498f5e086e6db198c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037b270e1c44c933b37b7475dbd0e855') in 1.823987 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 972
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Exercise_02.prefab
-  artifactKey: Guid(1f4d41c1556fd0c4c96fcda9428b2a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Exercise_02.prefab using Guid(1f4d41c1556fd0c4c96fcda9428b2a4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff7df4d4e50feb95e0f5f8a9e93fe57') in 0.265052 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 991
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Footballer_01.prefab
-  artifactKey: Guid(b180061a4238c364b891abaa33e87508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Footballer_01.prefab using Guid(b180061a4238c364b891abaa33e87508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3dd60fa1629f20803ac2c0d1b51b949') in 0.140471 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 985
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_HolidayElf_01.prefab
-  artifactKey: Guid(44b075b21d1db9e41bcb111d54dceeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_HolidayElf_01.prefab using Guid(44b075b21d1db9e41bcb111d54dceeae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a91e823bec682fd39dc91d4e32266be') in 0.140403 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 994
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Overalls_02.prefab
-  artifactKey: Guid(a9490d0853bfecd48847785a2822a2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Overalls_02.prefab using Guid(a9490d0853bfecd48847785a2822a2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdab8d61f4c958636a6528fa6c59c38') in 0.156840 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 998
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Pilot_01.prefab
-  artifactKey: Guid(dee1dab7c558d9b438aaed586465b1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Pilot_01.prefab using Guid(dee1dab7c558d9b438aaed586465b1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135890c8e88032a998facc497aff6103') in 0.164039 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1004
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Alien_02.prefab
-  artifactKey: Guid(76a0f459fa9b85d45bd6cefd9991cab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Alien_02.prefab using Guid(76a0f459fa9b85d45bd6cefd9991cab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fb6b28f04f2d6b10b97a19efbaaa8b') in 0.153862 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 972
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Doctor_01.prefab
-  artifactKey: Guid(08e8619eb53499245b632e828929af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Doctor_01.prefab using Guid(08e8619eb53499245b632e828929af1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5113f15d252d12350170db76970907a') in 0.178476 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1013
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_JungleKid_01.prefab
-  artifactKey: Guid(8da429f60b75b8d448579243fa8c5f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_JungleKid_01.prefab using Guid(8da429f60b75b8d448579243fa8c5f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77df13f1487b2a528139ae2ba91c6ba') in 0.162594 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 992
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Magician_01.prefab
-  artifactKey: Guid(eef1ac270ac73f04e924d7b57093363d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Magician_01.prefab using Guid(eef1ac270ac73f04e924d7b57093363d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fe0a67f436e3f25f15c0b3166e05a9') in 0.109705 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 987
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Hoodie_03.prefab
-  artifactKey: Guid(f4a3172d0c18b844394396cf43c44624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Hoodie_03.prefab using Guid(f4a3172d0c18b844394396cf43c44624) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089eb20bdbd13e27addd98ce7d087ca7') in 0.108462 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 990
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Onesie_Tiger_01.prefab
-  artifactKey: Guid(8308498c2b7be8e4f8da7ea7f3af52d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Onesie_Tiger_01.prefab using Guid(8308498c2b7be8e4f8da7ea7f3af52d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0a303133f89868776ba89e192473e3') in 0.110807 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 977
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Fat_02.prefab
-  artifactKey: Guid(2ee09008497967148a35a5e81a119f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Fat_02.prefab using Guid(2ee09008497967148a35a5e81a119f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383f17ec953ddd3c3e865548b8280ff7') in 0.106106 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 989
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_PufferVest_01.prefab
-  artifactKey: Guid(07aa740e59e94d84d94faea96e625be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_PufferVest_01.prefab using Guid(07aa740e59e94d84d94faea96e625be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a897e0dc1f0ba6c993bbb87dee74b059') in 0.116698 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1000
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Explorer_01.prefab
-  artifactKey: Guid(d58b3b254538eb44fb9cc015b8283d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Explorer_01.prefab using Guid(d58b3b254538eb44fb9cc015b8283d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb726df4325dc62fcd6c61d99bf6be0c') in 0.117421 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1004
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Knight_01.prefab
-  artifactKey: Guid(d1ae99203e069534385820e63435a901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Knight_01.prefab using Guid(d1ae99203e069534385820e63435a901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6b9dcb3f5babcd5c26de58916b140f') in 0.131923 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1001
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Robber_01.prefab
-  artifactKey: Guid(ae59edfacd14d0b46a5621d90dc5cded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Robber_01.prefab using Guid(ae59edfacd14d0b46a5621d90dc5cded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18abe27c20dd1748ad3beda8dc9a6317') in 0.128510 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1000
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/PolygonKids/Materials/PolygonKids_Material_03_A.mat
-  artifactKey: Guid(297cde5b674fd364b97a0babafccffa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Materials/PolygonKids_Material_03_A.mat using Guid(297cde5b674fd364b97a0babafccffa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dedcf1d63cecb5c2b9c81af61f5efc1a') in 0.063712 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Maid_01.prefab
-  artifactKey: Guid(53af2aac5fe24f74f823933dee97817a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Maid_01.prefab using Guid(53af2aac5fe24f74f823933dee97817a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488617bc0aea67597d41e35533a020a9') in 0.221112 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 992
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Pig_01.prefab
-  artifactKey: Guid(3b5a91c47ac92a6488d0e3e895844d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Pig_01.prefab using Guid(3b5a91c47ac92a6488d0e3e895844d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68748585ccbf9ae48c568e265742a481') in 0.215384 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 972
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Nerd_01.prefab
-  artifactKey: Guid(b8abb364e3e83e940acab6c6f77b0686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Nerd_01.prefab using Guid(b8abb364e3e83e940acab6c6f77b0686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f88a8883f2ff27cc8de3be9c638324') in 0.167784 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1011
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/PolygonKids/Materials/PolygonKids_Material_02_A.mat
-  artifactKey: Guid(13d8e4ad07f3588488a6798bc31ea63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Materials/PolygonKids_Material_02_A.mat using Guid(13d8e4ad07f3588488a6798bc31ea63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99bedd3857a18e65da776aec88f0ebd9') in 0.025661 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PolygonKids/Materials/PolygonKids_Material_01_A.mat
-  artifactKey: Guid(823ac0e34852f1946b70b81aa0a7763c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Materials/PolygonKids_Material_01_A.mat using Guid(823ac0e34852f1946b70b81aa0a7763c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c396c0133b2523cc47e489f230c98fc') in 0.041804 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Eastern_01.prefab
-  artifactKey: Guid(af2dae0a548a0d345923bd21fff5ab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Eastern_01.prefab using Guid(af2dae0a548a0d345923bd21fff5ab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e93a82c4221649f0f473d6f797a40fb') in 0.132223 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1002
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Geisha_01.prefab
-  artifactKey: Guid(90c47d4b7f0d18a4ab0d8426f424afbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Geisha_01.prefab using Guid(90c47d4b7f0d18a4ab0d8426f424afbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa9da91b63a861e0024efc85da5c8a3') in 0.139597 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 990
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Elf_Warrior_01.prefab
-  artifactKey: Guid(f9ce84aa58d97d34f82d2532587c60ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Elf_Warrior_01.prefab using Guid(f9ce84aa58d97d34f82d2532587c60ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acf5bc33ad895a932b68d63c335d5c0') in 0.164780 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1002
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Ghost_01.prefab
-  artifactKey: Guid(482d3657e1f083a42b5356e3491ca6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Ghost_01.prefab using Guid(482d3657e1f083a42b5356e3491ca6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00a45e19d9a057a0249313dffb0b52d') in 0.102954 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 968
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Robot_01.prefab
-  artifactKey: Guid(3c707eb0f9e783e4785a0d26f5fd045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Robot_01.prefab using Guid(3c707eb0f9e783e4785a0d26f5fd045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad4faa076ab442e12ddef5139d1eb7c') in 0.118996 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 974
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_CargoShorts_01.prefab
-  artifactKey: Guid(b3810d6d592ccbe41bee8bb683cd9a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_CargoShorts_01.prefab using Guid(b3810d6d592ccbe41bee8bb683cd9a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1608f79185ced2c6ecdce0b2fcb4543') in 0.132369 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 993
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Samurai_01.prefab
-  artifactKey: Guid(d699b1f055c98d74b924392dcfc4a790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Samurai_01.prefab using Guid(d699b1f055c98d74b924392dcfc4a790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b3fa9b289634af3e91892268c67ac1') in 0.112965 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 983
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Raincoat_02.prefab
-  artifactKey: Guid(56a9071bbe5064d409570fd4a42ebddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Characters/SM_Chr_Kid_Raincoat_02.prefab using Guid(56a9071bbe5064d409570fd4a42ebddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef95561a0f3234bcbfd2af5cd5cf1fb1') in 0.112348 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 989
-========================================================================
-Received Import Request.
-  Time since last request: 1.587957 seconds.
-  path: Assets/PolygonKids/Models/Characters_Kids.fbx
-  artifactKey: Guid(a890656eebef5d94ab6c86843cebd735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Models/Characters_Kids.fbx using Guid(a890656eebef5d94ab6c86843cebd735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30d46a1ebe75da9fa0ac04a9458ca05') in 2.033125 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 536
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Makeshift_Gun_02.prefab
-  artifactKey: Guid(454b47c7d0a4e014e833a51ac7ffcd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Makeshift_Gun_02.prefab using Guid(454b47c7d0a4e014e833a51ac7ffcd47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a669ecf3bba1f7aa87efb80a3542008') in 0.043215 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Makeshift_Gun_05.prefab
-  artifactKey: Guid(7abcb6311f8ea3047a90cae0b83c1d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Makeshift_Gun_05.prefab using Guid(7abcb6311f8ea3047a90cae0b83c1d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246cb7f46ce08e9be8ae39e597a003e3') in 0.040135 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Sword_Foam_04.prefab
-  artifactKey: Guid(3504a5fbde5cb2e499f7366d26a97a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Sword_Foam_04.prefab using Guid(3504a5fbde5cb2e499f7366d26a97a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0cea235e8e0b6ebf8642dcdd22d3db') in 0.040079 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Shield_02.prefab
-  artifactKey: Guid(aa932996f3475e64585a92cfc038d7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Shield_02.prefab using Guid(aa932996f3475e64585a92cfc038d7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc35d11c1e3b2c289410c5c2968b7c89') in 0.042320 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Toy_Gun_01.prefab
-  artifactKey: Guid(ccefef54c8a5e824cb3b8ad1bd6f336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Toy_Gun_01.prefab using Guid(ccefef54c8a5e824cb3b8ad1bd6f336e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259c0b602b87431f260e2356cd44c02f') in 0.040278 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Goblin_Club_01.prefab
-  artifactKey: Guid(a321da1e975f7a54db70489862f14559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Goblin_Club_01.prefab using Guid(a321da1e975f7a54db70489862f14559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4c3bea3bae491cc8f64c66524a3d6f') in 0.038330 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Troll_01.prefab
-  artifactKey: Guid(c24e6988d37687349a8a0145bf2df4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Troll_01.prefab using Guid(c24e6988d37687349a8a0145bf2df4cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982b2279a93f66fb0380983dd8f93828') in 0.042738 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Axe_Foam_01.prefab
-  artifactKey: Guid(e5175a304c96496428f87775a78151b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Axe_Foam_01.prefab using Guid(e5175a304c96496428f87775a78151b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d449fd799505f2a860100efdee2a3d') in 0.039166 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Axe_Plastic_01.prefab
-  artifactKey: Guid(0c7de5600e5507846a54022043afcc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Axe_Plastic_01.prefab using Guid(0c7de5600e5507846a54022043afcc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40db52368008369a216dd62f4bb3ffe5') in 0.045606 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Laser_01.prefab
-  artifactKey: Guid(03483d3f96766614086b7df7c7b6305c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Laser_01.prefab using Guid(03483d3f96766614086b7df7c7b6305c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9dccf8b8f2991dca019cdcb2d753a5') in 0.045235 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Sword_Foam_02.prefab
-  artifactKey: Guid(c88e3b543de1fd34784023f67e7bad75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Sword_Foam_02.prefab using Guid(c88e3b543de1fd34784023f67e7bad75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b31660bebb8a949deaf159a52fc851c') in 0.042839 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Shuriken_Cardboard_02.prefab
-  artifactKey: Guid(414723c58b468fa47b507bf269f9941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Shuriken_Cardboard_02.prefab using Guid(414723c58b468fa47b507bf269f9941e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7427ddc83e6d7efa6b779aabc1ebf698') in 0.061375 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Slingshot_01_Rigged_01.prefab
-  artifactKey: Guid(f5acb8edf62ee7643b3af095fe7e1366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Slingshot_01_Rigged_01.prefab using Guid(f5acb8edf62ee7643b3af095fe7e1366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9ecd2c4431d90b62c271f05422c11f') in 0.050977 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Potato_01.prefab
-  artifactKey: Guid(a75a6be2a3d5f894ea11e8c6c0f0a4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Potato_01.prefab using Guid(a75a6be2a3d5f894ea11e8c6c0f0a4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade05b24916944d8a20ae8ec9c9051db') in 0.057249 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/PolygonKids/Models/SM_Chr_Attach_Bag_Square_01.fbx
-  artifactKey: Guid(371270038909e434eb6079c0e3290baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Models/SM_Chr_Attach_Bag_Square_01.fbx using Guid(371270038909e434eb6079c0e3290baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0616c82a7ac339bcf377e83d86c61bca') in 0.032373 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/PolygonKids/Models/SM_Chr_Attach_Crown_01.fbx
-  artifactKey: Guid(1bb6f59cb65a3704db08baf7556013ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Models/SM_Chr_Attach_Crown_01.fbx using Guid(1bb6f59cb65a3704db08baf7556013ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900347557a8972fa4ded262cdc93fded') in 0.035433 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Shuriken_Cardboard_01.prefab
-  artifactKey: Guid(ff9fa611914187a44954e494acc77376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Shuriken_Cardboard_01.prefab using Guid(ff9fa611914187a44954e494acc77376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c90063305e82000bd38b8921e4bfa9') in 0.059669 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Dagger_Plastic_01.prefab
-  artifactKey: Guid(49bb2475ee36903459e141dc569d10aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Dagger_Plastic_01.prefab using Guid(49bb2475ee36903459e141dc569d10aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be13847b3d4202f8b0cc2720c86e59b') in 0.046407 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Cap_Gun_01.prefab
-  artifactKey: Guid(1559ec3bef7d15d48a278c1b662de445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Cap_Gun_01.prefab using Guid(1559ec3bef7d15d48a278c1b662de445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67acb6bfa7a9987d228e612f7811f18a') in 0.044066 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 45
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Makeshift_Gun_03.prefab
-  artifactKey: Guid(618ba018968834242a7517662b31d946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Makeshift_Gun_03.prefab using Guid(618ba018968834242a7517662b31d946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce003291c6bdfa96f770e57f0260c55') in 0.044902 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Mace_Plastic_01.prefab
-  artifactKey: Guid(e389adeddc9f9da438050a1b193a4427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Mace_Plastic_01.prefab using Guid(e389adeddc9f9da438050a1b193a4427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b564e5747cf333cb0399bd4ea3ace302') in 0.041105 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 18
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonKids/Models/SM_Chr_Attach_Badge_Cupcake_01.fbx
-  artifactKey: Guid(5b785e70af3b97e4b9afd10ad0f5e86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Models/SM_Chr_Attach_Badge_Cupcake_01.fbx using Guid(5b785e70af3b97e4b9afd10ad0f5e86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0051d805cc91b7d4a511fa52a94b38e') in 0.025875 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Sword_Plastic_01.prefab
-  artifactKey: Guid(bca922903d80e904abd5a9e5e9b2b607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Sword_Plastic_01.prefab using Guid(bca922903d80e904abd5a9e5e9b2b607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389a81b217b002733029f67c301a796a') in 0.045474 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Toy_Gun_03.prefab
-  artifactKey: Guid(aa4c1759bd32e094eb8d485f2d4b12d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonKids/Prefabs/Weapons/SM_Wep_Toy_Gun_03.prefab using Guid(aa4c1759bd32e094eb8d485f2d4b12d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92da491420a44ecc443ada30d963aa7') in 0.040828 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 289.624776 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ca6da27c7013fb08a05c3e8737db72') in 0.703216 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 158
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi cancelada devido a uma saída do módulo ou a um pedido da aplicação.
 AssetImportWorker is now disconnected from the server
