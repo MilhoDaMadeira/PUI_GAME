@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: stats.general
   m_EditorClassIdentifier: 
   m_Repository:
-    rid: 4002127022614118400
+    rid: 8557786220756205568
   references:
     version: 2
     RefIds:
-    - rid: 4002127022614118400
+    - rid: 8557786220756205568
       type: {class: StatsRepository, ns: GameCreator.Runtime.Stats, asm: GameCreator.Runtime.Stats}
       data:
         m_StatusEffects:
