@@ -15,7 +15,7 @@ D:/PUI_GAME
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58121
+65310
 Successfully changed project path to: D:/PUI_GAME
 D:/PUI_GAME
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/PUI_GAME
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28880] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 2627981553 [EditorId] 2627981553 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOQVB13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6712] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 202891821 [EditorId] 202891821 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOQVB13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28880] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 2627981553 [EditorId] 2627981553 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOQVB13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6712] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 202891821 [EditorId] 202891821 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOQVB13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 12.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 11.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.5f1 (551d45108343)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Resources/UnitySubsystems
@@ -67,44 +67,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012843 seconds.
-- Loaded All Assemblies, in  0.604 seconds
+Registered in 0.015585 seconds.
+- Loaded All Assemblies, in  0.531 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1041 ms
+Android Extension - Scanning For ADB Devices 976 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.676 seconds
+- Finished resetting the current domain, in  1.468 seconds
 Domain Reload Profiling:
-	ReloadAssembly (288ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (294ms)
+		BeginReloadAssembly (102ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (100ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (291ms)
-				TypeCache.Initialize (289ms)
-					TypeCache.ScanAssembly (285ms)
+			SetupTypeCache (216ms)
+				TypeCache.Initialize (215ms)
+					TypeCache.ScanAssembly (211ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1551ms)
+			SetupLoadedEditorAssemblies (1369ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (1287ms)
+				InitializePlatformSupportModulesInManaged (1140ms)
 				SetLoadedEditorAssemblies (4ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (183ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -114,52 +114,52 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\PUI_GAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\PUI_GAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.083 seconds
-Refreshing native plugins compatible for Editor in 4.23 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.688 seconds
+Refreshing native plugins compatible for Editor in 3.72 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-PUI ASSIGNMENT #2
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.804 seconds
+- Finished resetting the current domain, in  1.641 seconds
 Domain Reload Profiling:
-	ReloadAssembly (459ms)
-		BeginReloadAssembly (245ms)
+	ReloadAssembly (338ms)
+		BeginReloadAssembly (177ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		LoadAllAssembliesAndSetupDomain (1613ms)
-			LoadAssemblies (546ms)
+			CreateAndSetChildDomain (35ms)
+		LoadAllAssembliesAndSetupDomain (1339ms)
+			LoadAssemblies (408ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1154ms)
-				TypeCache.Initialize (619ms)
-					TypeCache.ScanAssembly (611ms)
-				ResolveRequiredComponents (21ms)
+			SetupTypeCache (991ms)
+				TypeCache.Initialize (503ms)
+					TypeCache.ScanAssembly (494ms)
+				ResolveRequiredComponents (19ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1443ms)
+			SetupLoadedEditorAssemblies (1385ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
-				SetLoadedEditorAssemblies (6ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (7ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (147ms)
-				ProcessInitializeOnLoadAttributes (663ms)
-				ProcessInitializeOnLoadMethodAttributes (577ms)
-				AfterProcessingInitializeOnLoad (17ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (678ms)
+				ProcessInitializeOnLoadMethodAttributes (480ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 5.51 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8640 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (360.4 KB). Loaded Objects now: 9115.
-Memory consumption went from 1.36 GB to 1.36 GB.
-Total: 8.776200 ms (FindLiveObjects: 1.219600 ms CreateObjectMapping: 1.089600 ms MarkObjects: 6.137900 ms  DeleteObjects: 0.327500 ms)
+Unloading 8575 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.8 MB). Loaded Objects now: 9045.
+Memory consumption went from 1.33 GB to 1.33 GB.
+Total: 8.160000 ms (FindLiveObjects: 0.969200 ms CreateObjectMapping: 0.885800 ms MarkObjects: 5.759600 ms  DeleteObjects: 0.543500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -174,401 +174,400 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 19591.093422 seconds.
+  Time since last request: 126860.721220 seconds.
   path: Assets/GameObject.prefab
   artifactKey: Guid(7c21cf9137630eb48a177ac6fd73d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject.prefab using Guid(7c21cf9137630eb48a177ac6fd73d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef21234560b59384761e57f81a52e7d') in 0.563646 seconds 
+Start importing Assets/GameObject.prefab using Guid(7c21cf9137630eb48a177ac6fd73d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71dc6ebc45f97bd2f9d41149cf8958d') in 0.215431 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 913
+Number of asset objects unloaded after import = 907
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Building FastFood Drinks/SkyBox.mat
-  artifactKey: Guid(ad008292c89b04d4b8f9b706ad990349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/SkyBox.mat using Guid(ad008292c89b04d4b8f9b706ad990349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8b751b2762a03f68218663450c6b35') in 0.040547 seconds 
+  Time since last request: 0.000054 seconds.
+  path: Assets/Game Design/Nightbox/left.png
+  artifactKey: Guid(6919e1385342f3e4fb5f4eb8c55b7468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Nightbox/left.png using Guid(6919e1385342f3e4fb5f4eb8c55b7468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f1019dced9d830981822969d5e7ef1') in 0.018049 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Building FastFood Drinks/Demo Scene
-  artifactKey: Guid(904506a76473eaa4cbdc0e3d5e1680b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Demo Scene using Guid(904506a76473eaa4cbdc0e3d5e1680b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77e3e7967453dd2aa80903b92381aaf') in 0.001496 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Design/Nightbox/New Material.mat
+  artifactKey: Guid(a3651e2e80f8c164186296a30a359ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Nightbox/New Material.mat using Guid(a3651e2e80f8c164186296a30a359ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf4f8fb8c86265b9018ab0131221cb9') in 0.041856 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/EmotionEngine-8ynA SDF.asset
+  artifactKey: Guid(1c1212679ac04d940b56d37e657bcfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmotionEngine-8ynA SDF.asset using Guid(1c1212679ac04d940b56d37e657bcfba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936bc2a7d52a6a0f15c14c142de1ebfd') in 0.112120 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.002242 seconds.
+  path: Assets/Game Design/Game Assignment #2/ReflectionProbe-0.exr
+  artifactKey: Guid(d6f9eaaeb47d65b46b0263706cb9b795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Game Assignment #2/ReflectionProbe-0.exr using Guid(d6f9eaaeb47d65b46b0263706cb9b795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c94092e082b5327c8e6acbb8b296411d') in 0.064755 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000699 seconds.
+  path: Assets/Game Design/Game Assignment #2/LightingData.asset
+  artifactKey: Guid(52e403a976646024bbec474bd26c7f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Game Assignment #2/LightingData.asset using Guid(52e403a976646024bbec474bd26c7f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb013bb5da659cbbbf56138cc36c2257') in 0.002610 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000097 seconds.
-  path: Assets/EmotionEngine-8ynA.ttf
-  artifactKey: Guid(d69e38aef2ceb7c4da228f71fad4230e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EmotionEngine-8ynA.ttf using Guid(d69e38aef2ceb7c4da228f71fad4230e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a4c07c489d32471ab585de03a5447c') in 0.065655 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.036555 seconds.
-  path: Assets/Building FastFood Drinks/Demo Scene/Demo_Scene.unity
-  artifactKey: Guid(1607538b4c33fcf4d9769b2cade60417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Demo Scene/Demo_Scene.unity using Guid(1607538b4c33fcf4d9769b2cade60417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6114e1c6cc3fc7df0f7040af33ddf397') in 0.000818 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.794943 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Cube (4).asset
-  artifactKey: Guid(52aafac638ffb97429b893c5485d5e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Cube (4).asset using Guid(52aafac638ffb97429b893c5485d5e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f7463aaf439dd576c7cced6f894c89') in 0.027494 seconds 
+  path: Assets/Game Design/Nightbox/bottom.png
+  artifactKey: Guid(81e96a3858311924e85bec7fb4d5d665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Nightbox/bottom.png using Guid(81e96a3858311924e85bec7fb4d5d665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd48753a0b871df880d82f8d156fb730') in 0.023130 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Trash.asset
-  artifactKey: Guid(e731fcbd34ae77d48903d52765c5dfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Trash.asset using Guid(e731fcbd34ae77d48903d52765c5dfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb227f00bef3c69e6f81ec42868229ef') in 0.010701 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Monitor 1.asset
-  artifactKey: Guid(f152039b4080e30458f807cf8410bf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Monitor 1.asset using Guid(f152039b4080e30458f807cf8410bf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908ff53bc0b71d45758ac89eb0704787') in 0.011107 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/sign 1.asset
-  artifactKey: Guid(45e0575d149a83e46b3bcbb0b165bd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/sign 1.asset using Guid(45e0575d149a83e46b3bcbb0b165bd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa0113d9e93ee7de8beae445b52efef') in 0.011037 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/FastFood_Drinks.prefab
-  artifactKey: Guid(86e477d6015698b4ca2d27d2f2be9c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/FastFood_Drinks.prefab using Guid(86e477d6015698b4ca2d27d2f2be9c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a3d79b431b9fe1df710f214e661ddc') in 0.231719 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/sign 1.prefab
-  artifactKey: Guid(dd822655a2c27774384b42f5a3705fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/sign 1.prefab using Guid(dd822655a2c27774384b42f5a3705fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906d22eff945caf6005365ffdf59bc13') in 0.012523 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Interior Sign Large.asset
-  artifactKey: Guid(713694320b5ea40449479a5dd723075e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Interior Sign Large.asset using Guid(713694320b5ea40449479a5dd723075e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42c7fad7c966c7efc98446452b479eb') in 0.013505 seconds 
+  path: Assets/Game Design/Nightbox/left 1.png
+  artifactKey: Guid(adc70840cabf3e7468b4542373dffd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Nightbox/left 1.png using Guid(adc70840cabf3e7468b4542373dffd2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed56636fa1474a311fc4f755604e8e2c') in 0.012652 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Building FastFood Drinks/Textures/Brick_2_Cobble_diffuseOriginal.png
-  artifactKey: Guid(43e911a895b5ec24abca02e36ca83321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Textures/Brick_2_Cobble_diffuseOriginal.png using Guid(43e911a895b5ec24abca02e36ca83321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb8591eb4b976417a770445812d613e') in 0.013272 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game Design/Nightbox/bottom 1.png
+  artifactKey: Guid(53a24eb852a6df944a9a76e73e95c613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Nightbox/bottom 1.png using Guid(53a24eb852a6df944a9a76e73e95c613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4c773b748f9cf1bbb74a68799c2f9a') in 0.010643 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Front Sign.asset
-  artifactKey: Guid(31ce8d0770ab09b4e9c71ad1c6a21cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Front Sign.asset using Guid(31ce8d0770ab09b4e9c71ad1c6a21cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25caaba226d440e3e38a892c5398dc79') in 0.009022 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game Design/Nightbox/back.png
+  artifactKey: Guid(00fdc0f904a7a9447a05513c73931b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Nightbox/back.png using Guid(00fdc0f904a7a9447a05513c73931b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bb5b28cbc26ff1762c7d3f51885980') in 0.009323 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Building FastFood Drinks/Textures/Wood Floor 10_diffuseOriginal.png
-  artifactKey: Guid(b94bf4756d7569f45a599379f65cc548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Textures/Wood Floor 10_diffuseOriginal.png using Guid(b94bf4756d7569f45a599379f65cc548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff72806613b5dee6769591bb768d963') in 0.013557 seconds 
+  Time since last request: 0.000047 seconds.
+  path: Assets/Game Design/Nightbox/New Material 2.mat
+  artifactKey: Guid(b8afb418b7dc278498c6e3034484b94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Nightbox/New Material 2.mat using Guid(b8afb418b7dc278498c6e3034484b94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030eb7e2f1382ec0ee3ec09d57f13567') in 0.008330 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Monitor 2.asset
-  artifactKey: Guid(4945d5f788dd27644b73fdab94476ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Monitor 2.asset using Guid(4945d5f788dd27644b73fdab94476ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579105efc2a158dcca2d17419dbce803') in 0.011230 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game Design/Prefabs/Player 2.prefab
+  artifactKey: Guid(ee65a07bf2be7b441b4a5586f045d116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Prefabs/Player 2.prefab using Guid(ee65a07bf2be7b441b4a5586f045d116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a235afc7f78bde5c4dc4208badf462bc') in 2.067191 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1275
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
+  Time since last request: 0.000034 seconds.
   path: Assets/Building FastFood Drinks/Prefabs/Monitor 2.prefab
   artifactKey: Guid(4dcae225aed9f7f449328446b170e34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Monitor 2.prefab using Guid(4dcae225aed9f7f449328446b170e34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4435157c023c22840e1327a5fe15eb7c') in 0.012344 seconds 
+Start importing Assets/Building FastFood Drinks/Prefabs/Monitor 2.prefab using Guid(4dcae225aed9f7f449328446b170e34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43c3e21733ff0bb94f618e738cf0071') in 0.014115 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 10
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Trash.prefab
-  artifactKey: Guid(5453ebb91441a724f80f7758feae5e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Trash.prefab using Guid(5453ebb91441a724f80f7758feae5e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c8add1eb3ce103204571ab84d935b5') in 0.015775 seconds 
+  Time since last request: 0.000040 seconds.
+  path: Assets/EmotionEngine-8ynA.ttf
+  artifactKey: Guid(d69e38aef2ceb7c4da228f71fad4230e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EmotionEngine-8ynA.ttf using Guid(d69e38aef2ceb7c4da228f71fad4230e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a4c07c489d32471ab585de03a5447c') in 0.020291 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Interior Sign Large.prefab
-  artifactKey: Guid(1d75551dc1cd90d4ead8f8b1ad99b1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Interior Sign Large.prefab using Guid(1d75551dc1cd90d4ead8f8b1ad99b1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b21c66af7c9dc069112705432dc071') in 0.015705 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Building FastFood Drinks/Textures/Sidewalk_square_diffuseOriginal.png
-  artifactKey: Guid(e9e769a671611cf46b417f1824276b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Textures/Sidewalk_square_diffuseOriginal.png using Guid(e9e769a671611cf46b417f1824276b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c09032cd12858e775cd7216d540a10') in 0.010623 seconds 
+  Time since last request: 0.000029 seconds.
+  path: Assets/Game Design/Nightbox/front.png
+  artifactKey: Guid(9aefa6ef9d43d8d4ea13c93260c26a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Nightbox/front.png using Guid(9aefa6ef9d43d8d4ea13c93260c26a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb0fc65d87e92fc4077771990f2847d') in 0.013119 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Soda Machine.asset
-  artifactKey: Guid(3f50dc5080dd2004e88e3dbf858dbd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Soda Machine.asset using Guid(3f50dc5080dd2004e88e3dbf858dbd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff1c7fe3d1466cf61ca81ab73cd1459') in 0.011075 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Building FastFood Drinks/Textures/stone_2_diffuseOriginal.png
-  artifactKey: Guid(0fe371ce43adaf342b07d01fc1812278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Textures/stone_2_diffuseOriginal.png using Guid(0fe371ce43adaf342b07d01fc1812278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978389de447618a0f0d7996d5915d783') in 0.014623 seconds 
+  Time since last request: 0.000098 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/Monitor.asset
+  artifactKey: Guid(2e232366387e69e459c5d9fb9ef7e52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building FastFood Drinks/Prefabs/Monitor.asset using Guid(2e232366387e69e459c5d9fb9ef7e52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58939fb91d9c68d16e03da2668ff020b') in 0.029982 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Soda Machine.prefab
-  artifactKey: Guid(7e3d66bbdd2f80443b188ce179626eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Soda Machine.prefab using Guid(7e3d66bbdd2f80443b188ce179626eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda047fadaff90a1f83539431f0048d8') in 0.016113 seconds 
+  path: Assets/Game Design/Nightbox/cubemap.png
+  artifactKey: Guid(7c9508471eede504bb28d2e8f611e5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Nightbox/cubemap.png using Guid(7c9508471eede504bb28d2e8f611e5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7188f3d99bc1c951cb009c58edf9b9') in 0.025362 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Monitor.prefab
-  artifactKey: Guid(9f66f3a5776112d499c30bee40f0956e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Monitor.prefab using Guid(9f66f3a5776112d499c30bee40f0956e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7499e68fda02d9d78fcd421676f6e86') in 0.014937 seconds 
+  Time since last request: 0.000225 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/sign.asset
+  artifactKey: Guid(893aedff1b3db9a48ae9c786ebe1c780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building FastFood Drinks/Prefabs/sign.asset using Guid(893aedff1b3db9a48ae9c786ebe1c780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2035e98c8273686be8530665310df0d5') in 0.009269 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/Trash.asset
+  artifactKey: Guid(e731fcbd34ae77d48903d52765c5dfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building FastFood Drinks/Prefabs/Trash.asset using Guid(e731fcbd34ae77d48903d52765c5dfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb227f00bef3c69e6f81ec42868229ef') in 0.008084 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/LowPolyOfficeProps_LITE/Meshes/Chair_Office.fbx
+  artifactKey: Guid(b5b1a7c1d994db446afb4b4f42882151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyOfficeProps_LITE/Meshes/Chair_Office.fbx using Guid(b5b1a7c1d994db446afb4b4f42882151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bdd665bc58e63f4c2dd3f4014ecbb8') in 0.206429 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/Interior Sign Large.prefab
+  artifactKey: Guid(1d75551dc1cd90d4ead8f8b1ad99b1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building FastFood Drinks/Prefabs/Interior Sign Large.prefab using Guid(1d75551dc1cd90d4ead8f8b1ad99b1ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0943aac1b4d2e3b02504958a9f2ac9') in 0.011758 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Monitor.asset
-  artifactKey: Guid(2e232366387e69e459c5d9fb9ef7e52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Monitor.asset using Guid(2e232366387e69e459c5d9fb9ef7e52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58939fb91d9c68d16e03da2668ff020b') in 0.010748 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Recycle.asset
-  artifactKey: Guid(983b16b658a6d3046833968135511d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Recycle.asset using Guid(983b16b658a6d3046833968135511d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddadf9ced2b30847b8fbf019c13804b') in 0.011248 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Window Sign.asset
-  artifactKey: Guid(e6b805e372e8d4b46ab6b0695fb07951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Window Sign.asset using Guid(e6b805e372e8d4b46ab6b0695fb07951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981a3428a3c6b56e66cc61314ae494df') in 0.011372 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/Building FastFood Drinks/Textures/Pixel_Stripe_vertical_diffuseOriginal.png
-  artifactKey: Guid(d23aff571cc90d443be329bbb503180c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Textures/Pixel_Stripe_vertical_diffuseOriginal.png using Guid(d23aff571cc90d443be329bbb503180c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e064a28da1c17a1598d1e3709733d06a') in 0.010691 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/sign.prefab
-  artifactKey: Guid(d9b6c63dea8730f43a1891fabe4fa192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/sign.prefab using Guid(d9b6c63dea8730f43a1891fabe4fa192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7347b211f226d7f94e42fc9f261cc354') in 0.014652 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Front Sign.prefab
-  artifactKey: Guid(d2caed97bdf02304fb8d8fd477ad75c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Front Sign.prefab using Guid(d2caed97bdf02304fb8d8fd477ad75c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278e1a18911842b5b5a8bf7a1b961896') in 0.019556 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/sign.asset
-  artifactKey: Guid(893aedff1b3db9a48ae9c786ebe1c780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/sign.asset using Guid(893aedff1b3db9a48ae9c786ebe1c780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2035e98c8273686be8530665310df0d5') in 0.009663 seconds 
+  path: Assets/Building FastFood Drinks/Textures/Sidewalk_square_diffuseOriginal.png
+  artifactKey: Guid(e9e769a671611cf46b417f1824276b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building FastFood Drinks/Textures/Sidewalk_square_diffuseOriginal.png using Guid(e9e769a671611cf46b417f1824276b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c09032cd12858e775cd7216d540a10') in 0.011658 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Monitor 1.prefab
-  artifactKey: Guid(4026742f9b36c174bba05363aec0bb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Monitor 1.prefab using Guid(4026742f9b36c174bba05363aec0bb21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '509c1c6366ab08217fc83b21165a8308') in 0.012435 seconds 
+  path: Assets/Building FastFood Drinks/Prefabs/Chair.prefab
+  artifactKey: Guid(15ddf9943ebd5df4dbcfd147b62f2d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building FastFood Drinks/Prefabs/Chair.prefab using Guid(15ddf9943ebd5df4dbcfd147b62f2d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff897c9e4266d383057b2dc778aec15') in 0.016947 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 1.172262 seconds.
-  path: Assets/Game Design/Nightbox/back 1.png
-  artifactKey: Guid(99515390e06e20b4dbf041a68e7fb59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Nightbox/back 1.png using Guid(99515390e06e20b4dbf041a68e7fb59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11da3c812535d6111b1dd8ca0b40b750') in 0.010804 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/Building FastFood Drinks/Textures/stone_2_diffuseOriginal.png
+  artifactKey: Guid(0fe371ce43adaf342b07d01fc1812278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building FastFood Drinks/Textures/stone_2_diffuseOriginal.png using Guid(0fe371ce43adaf342b07d01fc1812278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978389de447618a0f0d7996d5915d783') in 0.013468 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Game Design/Nightbox/left.png
-  artifactKey: Guid(6919e1385342f3e4fb5f4eb8c55b7468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Nightbox/left.png using Guid(6919e1385342f3e4fb5f4eb8c55b7468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f1019dced9d830981822969d5e7ef1') in 0.011106 seconds 
+  Time since last request: 0.000024 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b11e6936975384c89f4f7e6268c69a') in 0.003883 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Game Design/Nightbox/bottom 1.png
-  artifactKey: Guid(53a24eb852a6df944a9a76e73e95c613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Nightbox/bottom 1.png using Guid(53a24eb852a6df944a9a76e73e95c613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4c773b748f9cf1bbb74a68799c2f9a') in 0.013293 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Building FastFood Drinks/Prefabs/Front Sign.prefab
+  artifactKey: Guid(d2caed97bdf02304fb8d8fd477ad75c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building FastFood Drinks/Prefabs/Front Sign.prefab using Guid(d2caed97bdf02304fb8d8fd477ad75c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e401ddb70a7a97a148755a8bb8ef7b6') in 0.013987 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Game Design/Nightbox/bottom.png
-  artifactKey: Guid(81e96a3858311924e85bec7fb4d5d665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Nightbox/bottom.png using Guid(81e96a3858311924e85bec7fb4d5d665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd48753a0b871df880d82f8d156fb730') in 0.012556 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Game Design/Nightbox/New Material 2.mat
-  artifactKey: Guid(b8afb418b7dc278498c6e3034484b94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Nightbox/New Material 2.mat using Guid(b8afb418b7dc278498c6e3034484b94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030eb7e2f1382ec0ee3ec09d57f13567') in 0.010207 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Game Design/Nightbox/top 1.png
-  artifactKey: Guid(0d0b2c35ed4d68a4795bc44db24c6810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Nightbox/top 1.png using Guid(0d0b2c35ed4d68a4795bc44db24c6810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf92c6d556f83c4c3ab0d33361deb8a9') in 0.011951 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 16
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
-  path: Assets/Game Design/Nightbox/right.png
-  artifactKey: Guid(826b7cbd13106fb45b8182a5eb28e754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Nightbox/right.png using Guid(826b7cbd13106fb45b8182a5eb28e754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0801317b73b39f2b66ebcd26a78a7c40') in 0.012449 seconds 
+  path: Assets/Game Design/Prefabs/Player 1.prefab
+  artifactKey: Guid(8d4333dbf8ef2804998bba19bddbc7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Prefabs/Player 1.prefab using Guid(8d4333dbf8ef2804998bba19bddbc7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93d14bca0aaa99db6da5da1a8955c28') in 1.424659 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1294
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Game Design/Nightbox/cubemap.png
-  artifactKey: Guid(7c9508471eede504bb28d2e8f611e5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Nightbox/cubemap.png using Guid(7c9508471eede504bb28d2e8f611e5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a404ca28e09cddfbdaabfc822b308c20') in 0.037331 seconds 
+  Time since last request: 2.481064 seconds.
+  path: Assets/Building FastFood Drinks/SkyBox.mat
+  artifactKey: Guid(ad008292c89b04d4b8f9b706ad990349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building FastFood Drinks/SkyBox.mat using Guid(ad008292c89b04d4b8f9b706ad990349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8b751b2762a03f68218663450c6b35') in 0.009606 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Game Design/Nightbox/right 1.png
-  artifactKey: Guid(e7448dae9f401734d9120d9a33b4aee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Nightbox/right 1.png using Guid(e7448dae9f401734d9120d9a33b4aee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f01dbf8ea9bb050a28da4983617259c') in 0.013259 seconds 
+  Time since last request: 10.348231 seconds.
+  path: Assets/Game Design/Prefabs/Objects/Tutorial Objects/Tutorial Enter.prefab
+  artifactKey: Guid(1eeb0364fa7902244aaaf4adc42d0175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Prefabs/Objects/Tutorial Objects/Tutorial Enter.prefab using Guid(1eeb0364fa7902244aaaf4adc42d0175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f0103c543f986f2dea06b43eb8e19c') in 0.026763 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 152
 ========================================================================
 Received Import Request.
-  Time since last request: 0.095471 seconds.
-  path: Assets/Game Design/Prefabs/Player 2.prefab
-  artifactKey: Guid(ee65a07bf2be7b441b4a5586f045d116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Prefabs/Player 2.prefab using Guid(ee65a07bf2be7b441b4a5586f045d116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23db4b7e7403c0eda7b83110a88cb6f3') in 1.702958 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game Design/Prefabs/Objects/Tutorial Objects/Tutorial UDLR.prefab
+  artifactKey: Guid(1dcf12e676a7fe445b877b7ba7a13dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Prefabs/Objects/Tutorial Objects/Tutorial UDLR.prefab using Guid(1dcf12e676a7fe445b877b7ba7a13dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da479fabf14c0336333428761416b1f') in 0.023791 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1310
+Number of asset objects unloaded after import = 139
 ========================================================================
 Received Import Request.
-  Time since last request: 17.494836 seconds.
-  path: Assets/Materials/wall.mat
-  artifactKey: Guid(789247214758d0e468cf8d186c361cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/wall.mat using Guid(789247214758d0e468cf8d186c361cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0df823bec61f0ca9ba6a806e45baf916') in 0.016000 seconds 
+  Time since last request: 1.096722 seconds.
+  path: Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube/Box Other Bit.mat
+  artifactKey: Guid(2b582c0d450803f40841203f2889839f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube/Box Other Bit.mat using Guid(2b582c0d450803f40841203f2889839f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9d3ba0ab0b63cefd7e06e126da2d2a') in 0.006705 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube/Light Up.mat
+  artifactKey: Guid(c9716b2ca04d54d40911445307ed7cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube/Light Up.mat using Guid(c9716b2ca04d54d40911445307ed7cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e3de4bbeac9062b0a4e095eb47f945') in 0.006340 seconds 
+Internal: JobTempAlloc has allocations that are more than the maximum lifespan of 4 frames old - this is not allowed and likely a leak
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube/Toy Cube Variant.prefab
+  artifactKey: Guid(641ff0fd4828cba47b159ef3aa341e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube/Toy Cube Variant.prefab using Guid(641ff0fd4828cba47b159ef3aa341e37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c1de7e1adf67671ac6806b80d06eb4') in 0.022108 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube/New Material 1.mat
+  artifactKey: Guid(504ab514d23dfbe4688e553f9c764bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube/New Material 1.mat using Guid(504ab514d23dfbe4688e553f9c764bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f508afe29a4d8f0b02084a06a72651e') in 0.007420 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube/New Material.mat
+  artifactKey: Guid(7d1174eecc59b8543b5e4472ce5ec6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube/New Material.mat using Guid(7d1174eecc59b8543b5e4472ce5ec6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4918250c98d799fe5bf5c7745352024b') in 0.007863 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.136392 seconds.
+  path: Assets/Game Design/Prefabs/Objects/Tutorial Objects/Grounds/Tutorial.mp3
+  artifactKey: Guid(68f58fa6ddd6da14f9734855985218ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Prefabs/Objects/Tutorial Objects/Grounds/Tutorial.mp3 using Guid(68f58fa6ddd6da14f9734855985218ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2220f48add42fb058d8e72656338dd09') in 0.019658 seconds 
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
+Internal: deleting an allocation that is older than its permitted lifetime of 4 frames (age = 10)
 Symbol file LoadedFromMemory doesn't match image D:\PUI_GAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\PUI_GAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.625 seconds
-Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.288 seconds
+Refreshing native plugins compatible for Editor in 2.75 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-PUI ASSIGNMENT #2
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.955 seconds
+- Finished resetting the current domain, in  1.138 seconds
 Domain Reload Profiling:
-	ReloadAssembly (381ms)
-		BeginReloadAssembly (238ms)
+	ReloadAssembly (258ms)
+		BeginReloadAssembly (172ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (90ms)
-		LoadAllAssembliesAndSetupDomain (1236ms)
-			LoadAssemblies (405ms)
+			CreateAndSetChildDomain (67ms)
+		LoadAllAssembliesAndSetupDomain (1026ms)
+			LoadAssemblies (338ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (910ms)
-				TypeCache.Initialize (473ms)
-					TypeCache.ScanAssembly (461ms)
-				ResolveRequiredComponents (15ms)
+			SetupTypeCache (738ms)
+				TypeCache.Initialize (410ms)
+					TypeCache.ScanAssembly (402ms)
+				ResolveRequiredComponents (12ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1639ms)
+			SetupLoadedEditorAssemblies (854ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
-				SetLoadedEditorAssemblies (8ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (170ms)
-				ProcessInitializeOnLoadAttributes (749ms)
-				ProcessInitializeOnLoadMethodAttributes (642ms)
-				AfterProcessingInitializeOnLoad (25ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (397ms)
+				ProcessInitializeOnLoadMethodAttributes (319ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (38ms)
-Refreshing native plugins compatible for Editor in 5.71 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (11ms)
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:945 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:1631 
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:945 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.GetMaterial (UnityEngine.Rendering.Universal.DefaultMaterialType materialType) [0x00000] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:851 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultMaterial () [0x00000] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:1533 
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
+
+Refreshing native plugins compatible for Editor in 2.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8470 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (321.3 KB). Loaded Objects now: 9218.
-Memory consumption went from 1.33 GB to 1.33 GB.
-Total: 6.794700 ms (FindLiveObjects: 1.108100 ms CreateObjectMapping: 0.548700 ms MarkObjects: 5.014700 ms  DeleteObjects: 0.121300 ms)
+Unloading 8476 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.7 MB). Loaded Objects now: 9109.
+Memory consumption went from 1.31 GB to 1.31 GB.
+Total: 8.206900 ms (FindLiveObjects: 1.210900 ms CreateObjectMapping: 0.742200 ms MarkObjects: 5.474600 ms  DeleteObjects: 0.776800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:945 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:1631 
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:945 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.GetMaterial (UnityEngine.Rendering.Universal.DefaultMaterialType materialType) [0x00000] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:851 
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultMaterial () [0x00000] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:1533 
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
+
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:srp/default-shader: ff2869b2ce7c09b51d8bc2926aab598d -> 886a89792de1e9d3697bddabf731a298
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
@@ -579,3 +578,39 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:srp/default-material: 1323b11ab5f8e84b9c4553e3cd30b8d1 -> 00000000000000000f00000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 245.059056 seconds.
+  path: Assets/Assignment#2Stuff/Sound/Main_Menu_Theme.mp3
+  artifactKey: Guid(ce76b7e11a1f91f498a844aa018df30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assignment#2Stuff/Sound/Main_Menu_Theme.mp3 using Guid(ce76b7e11a1f91f498a844aa018df30f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1040905104765d02b360f3888fcb9074') in 0.059919 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.510318 seconds.
+  path: Assets/Game Design/Prefabs/Player 2.prefab
+  artifactKey: Guid(ee65a07bf2be7b441b4a5586f045d116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Prefabs/Player 2.prefab using Guid(ee65a07bf2be7b441b4a5586f045d116) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
+  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
+  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <f45a99ffbb9f4d0580258c77e560b3ab>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
+UnityEngine.Camera:Render(Camera)
+UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
+UnityEditor.GameObjectInspector:DoRenderPreview(PreviewData)
+UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
+
+ -> (artifact id: 'e91fdeca5832d98a0440d822f650ca1e') in 1.428935 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1275

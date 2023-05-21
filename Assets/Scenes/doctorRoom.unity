@@ -1108,18 +1108,21 @@ MonoBehaviour:
         m_IsEnabled: 1
         m_Scene:
           m_Property:
-            rid: 4002127002831945750
+            rid: 4002127161046335539
         m_Mode: 0
         m_Async: 0
         m_SceneEntries:
           m_Entries: []
-    - rid: 4002127002831945750
-      type: {class: GetSceneAsset, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+    - rid: 4002127161046335539
+      type: {class: GetSceneIndex, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
-        m_Scene:
-          m_Scene: {fileID: 102900000, guid: ef0ff2f27ff702b41a4b96593ba90f4f, type: 3}
-          m_SceneName: Game Assignment #2
-          m_SceneIndex: -1
+        m_Index:
+          m_Property:
+            rid: 4002127161046335540
+    - rid: 4002127161046335540
+      type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_Value: 3
 --- !u!4 &440019836
 Transform:
   m_ObjectHideFlags: 0

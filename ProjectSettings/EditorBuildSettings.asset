@@ -5,13 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
     path: Assets/Scenes/ui.unity
     guid: 7b804a586639feb41a86840b52cd48a8
   - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: e8d22cdd3e263ec4fbdef64bb6c5fdd9
+  - enabled: 1
     path: Assets/Scenes/doctorRoom.unity
     guid: 2d3ef66df6811c44d80831691d620567
+  - enabled: 1
+    path: Assets/Scenes/Game Assignment #2.unity
+    guid: ef0ff2f27ff702b41a4b96593ba90f4f
   m_configObjects: {}

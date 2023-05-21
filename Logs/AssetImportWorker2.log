@@ -15,7 +15,7 @@ D:/PUI_GAME
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-65310
+59350
 Successfully changed project path to: D:/PUI_GAME
 D:/PUI_GAME
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/PUI_GAME
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32936] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 2566410610 [EditorId] 2566410610 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOQVB13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [461700] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 597946495 [EditorId] 597946495 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOQVB13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [32936] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 2566410610 [EditorId] 2566410610 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOQVB13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [461700] Host "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 597946495 [EditorId] 597946495 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QOQVB13) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 18.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 182.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.5f1 (551d45108343)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Resources/UnitySubsystems
@@ -67,44 +67,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015759 seconds.
-- Loaded All Assemblies, in  0.627 seconds
+Registered in 0.016339 seconds.
+- Loaded All Assemblies, in  0.585 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 957 ms
+Android Extension - Scanning For ADB Devices 1133 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.465 seconds
+- Finished resetting the current domain, in  1.653 seconds
 Domain Reload Profiling:
-	ReloadAssembly (352ms)
-		BeginReloadAssembly (134ms)
+	ReloadAssembly (330ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (134ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
-				TypeCache.Initialize (241ms)
-					TypeCache.ScanAssembly (238ms)
+			SetupTypeCache (229ms)
+				TypeCache.Initialize (228ms)
+					TypeCache.ScanAssembly (225ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1359ms)
+			SetupLoadedEditorAssemblies (1544ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (1106ms)
-				SetLoadedEditorAssemblies (7ms)
+				InitializePlatformSupportModulesInManaged (1292ms)
+				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -114,52 +114,52 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\PUI_GAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\PUI_GAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.808 seconds
-Refreshing native plugins compatible for Editor in 4.34 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.904 seconds
+Refreshing native plugins compatible for Editor in 4.06 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-PUI ASSIGNMENT #2
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.971 seconds
+- Finished resetting the current domain, in  1.813 seconds
 Domain Reload Profiling:
-	ReloadAssembly (363ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (382ms)
+		BeginReloadAssembly (197ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (35ms)
-		LoadAllAssembliesAndSetupDomain (1439ms)
-			LoadAssemblies (454ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		LoadAllAssembliesAndSetupDomain (1515ms)
+			LoadAssemblies (550ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1056ms)
-				TypeCache.Initialize (568ms)
-					TypeCache.ScanAssembly (559ms)
-				ResolveRequiredComponents (19ms)
+			SetupTypeCache (1038ms)
+				TypeCache.Initialize (518ms)
+					TypeCache.ScanAssembly (508ms)
+				ResolveRequiredComponents (15ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (1507ms)
+			SetupLoadedEditorAssemblies (1501ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
+				InitializePlatformSupportModulesInManaged (31ms)
 				SetLoadedEditorAssemblies (7ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (143ms)
-				ProcessInitializeOnLoadAttributes (690ms)
-				ProcessInitializeOnLoadMethodAttributes (617ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (1ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (716ms)
+				ProcessInitializeOnLoadMethodAttributes (588ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
-Refreshing native plugins compatible for Editor in 5.31 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 4.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8575 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (0.8 MB). Loaded Objects now: 9045.
-Memory consumption went from 1.33 GB to 1.33 GB.
-Total: 17.427400 ms (FindLiveObjects: 3.064300 ms CreateObjectMapping: 1.825200 ms MarkObjects: 11.770000 ms  DeleteObjects: 0.766200 ms)
+Unloading 8640 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (361.0 KB). Loaded Objects now: 9108.
+Memory consumption went from 1.29 GB to 1.29 GB.
+Total: 9.190200 ms (FindLiveObjects: 1.330100 ms CreateObjectMapping: 1.034100 ms MarkObjects: 6.483100 ms  DeleteObjects: 0.341000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -174,202 +174,34 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 126863.299176 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Cube (4).asset
-  artifactKey: Guid(52aafac638ffb97429b893c5485d5e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Cube (4).asset using Guid(52aafac638ffb97429b893c5485d5e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f7463aaf439dd576c7cced6f894c89') in 0.170886 seconds 
+  Time since last request: 108831.116417 seconds.
+  path: Assets/422051__inspectorj__car-alarm-distant-a.wav
+  artifactKey: Guid(f8419a39ae46a174e8eceb86fc3bc3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/422051__inspectorj__car-alarm-distant-a.wav using Guid(f8419a39ae46a174e8eceb86fc3bc3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1bb88bb5e156e6fba553eed05f3309e') in 0.155848 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/LowPolyOfficeProps_LITE/Materials/LPOP_TextureAtlas1.mat
-  artifactKey: Guid(16cb512cb0149e644a3e5929b3266a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyOfficeProps_LITE/Materials/LPOP_TextureAtlas1.mat using Guid(16cb512cb0149e644a3e5929b3266a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd261c0cb4297bbdae1ec2e98bc94692c') in 0.088348 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Game Design/Nightbox/right 1.png
-  artifactKey: Guid(e7448dae9f401734d9120d9a33b4aee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Nightbox/right 1.png using Guid(e7448dae9f401734d9120d9a33b4aee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f01dbf8ea9bb050a28da4983617259c') in 0.023577 seconds 
+  Time since last request: 0.000046 seconds.
+  path: Assets/Candy.asset
+  artifactKey: Guid(97eb97862d7f720498ea73cd1faeebd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Candy.asset using Guid(97eb97862d7f720498ea73cd1faeebd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ab3ce79af106a3fee79a5f49e87236') in 0.013713 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Monitor 1.asset
-  artifactKey: Guid(f152039b4080e30458f807cf8410bf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Monitor 1.asset using Guid(f152039b4080e30458f807cf8410bf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908ff53bc0b71d45758ac89eb0704787') in 0.012342 seconds 
+  path: Assets/GameObject.prefab
+  artifactKey: Guid(7c21cf9137630eb48a177ac6fd73d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObject.prefab using Guid(7c21cf9137630eb48a177ac6fd73d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03dcadd1e604cf46ecd685aeabb8191') in 8.349745 seconds 
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 913
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/sign 1.asset
-  artifactKey: Guid(45e0575d149a83e46b3bcbb0b165bd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/sign 1.asset using Guid(45e0575d149a83e46b3bcbb0b165bd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa0113d9e93ee7de8beae445b52efef') in 0.016164 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Building FastFood Drinks/Textures/Brick_2_Cobble_diffuseOriginal.png
-  artifactKey: Guid(43e911a895b5ec24abca02e36ca83321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Textures/Brick_2_Cobble_diffuseOriginal.png using Guid(43e911a895b5ec24abca02e36ca83321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb8591eb4b976417a770445812d613e') in 0.016955 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Building FastFood Drinks/Textures/Wood Floor 10_diffuseOriginal.png
-  artifactKey: Guid(b94bf4756d7569f45a599379f65cc548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Textures/Wood Floor 10_diffuseOriginal.png using Guid(b94bf4756d7569f45a599379f65cc548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff72806613b5dee6769591bb768d963') in 0.015473 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Monitor 2.asset
-  artifactKey: Guid(4945d5f788dd27644b73fdab94476ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Monitor 2.asset using Guid(4945d5f788dd27644b73fdab94476ef2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579105efc2a158dcca2d17419dbce803') in 0.011653 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Trash.prefab
-  artifactKey: Guid(5453ebb91441a724f80f7758feae5e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Trash.prefab using Guid(5453ebb91441a724f80f7758feae5e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfdfff18a85cb83c25037336cdeebe2') in 0.035804 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Conference.prefab
-  artifactKey: Guid(7d255bce5b634604dbc1ed9f1e878f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Conference.prefab using Guid(7d255bce5b634604dbc1ed9f1e878f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c5f52ac2598a733c78a8ee5f48b016') in 0.020760 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Office.prefab
-  artifactKey: Guid(2ff7704997af3ca468ea39420cfd35ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyOfficeProps_LITE/Prefabs/Chair_Office.prefab using Guid(2ff7704997af3ca468ea39420cfd35ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38796eee086cf12baf86d60f84465cc0') in 0.016353 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Soda Machine.asset
-  artifactKey: Guid(3f50dc5080dd2004e88e3dbf858dbd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Soda Machine.asset using Guid(3f50dc5080dd2004e88e3dbf858dbd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff1c7fe3d1466cf61ca81ab73cd1459') in 0.011202 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Building FastFood Drinks/Prefabs/Soda Machine.prefab
-  artifactKey: Guid(7e3d66bbdd2f80443b188ce179626eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Prefabs/Soda Machine.prefab using Guid(7e3d66bbdd2f80443b188ce179626eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2cb59876c0e56a2e8e4b48bf424453') in 0.016357 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Game Design/Nightbox/right.png
-  artifactKey: Guid(826b7cbd13106fb45b8182a5eb28e754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Nightbox/right.png using Guid(826b7cbd13106fb45b8182a5eb28e754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0801317b73b39f2b66ebcd26a78a7c40') in 0.011858 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Game Design/Nightbox/New Material 1.mat
-  artifactKey: Guid(dcb56b545bf60f14e9be5e943d2fd85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Nightbox/New Material 1.mat using Guid(dcb56b545bf60f14e9be5e943d2fd85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324cbc71e64944508de82478e4bfb311') in 0.041160 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.283903 seconds.
-  path: Assets/LowPolyOfficeProps_LITE/Textures/LPOP_TextureAtlas1_FULL.png
-  artifactKey: Guid(ab9f9ceec5d21e24c9e03cadab93d5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowPolyOfficeProps_LITE/Textures/LPOP_TextureAtlas1_FULL.png using Guid(ab9f9ceec5d21e24c9e03cadab93d5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca347448b999e068a73aab64a793c18b') in 0.013203 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 3.591556 seconds.
-  path: Assets/Building FastFood Drinks/Drink_Sign.png
-  artifactKey: Guid(72c1305b9f5654c4e9e0ae28e5aa8abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Drink_Sign.png using Guid(72c1305b9f5654c4e9e0ae28e5aa8abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793d45b7b7510de2e85446e18d29f58b') in 0.023653 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 10.280478 seconds.
-  path: Assets/Game Design/Prefabs/Objects/Tutorial Objects
-  artifactKey: Guid(b31f38492fa950042b99a5049dc9747d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Prefabs/Objects/Tutorial Objects using Guid(b31f38492fa950042b99a5049dc9747d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53300a95da9dd8e8b6add3fafd509bd') in 0.000854 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.042727 seconds.
-  path: Assets/Game Design/Prefabs/Objects/Tutorial Objects/Toy Cube.prefab
-  artifactKey: Guid(f0df482db91215e4b9315140ab2ec8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Prefabs/Objects/Tutorial Objects/Toy Cube.prefab using Guid(f0df482db91215e4b9315140ab2ec8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586f27edad4a148d03bd32f91c423d5d') in 0.042436 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 44
-========================================================================
-Received Import Request.
-  Time since last request: 1.040724 seconds.
-  path: Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube
-  artifactKey: Guid(4ea0492f65fb9d542bb56315b6aea90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube using Guid(4ea0492f65fb9d542bb56315b6aea90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6478d0c69e038b7796266e52ae65cc4d') in 0.000538 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.059138 seconds.
-  path: Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube/Blue.mat
-  artifactKey: Guid(97f231ee86c2bcb48a05fca237526963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube/Blue.mat using Guid(97f231ee86c2bcb48a05fca237526963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae0912797784a8e5be118fe9f32c1419') in 0.007411 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube/Regular Wood.mat
-  artifactKey: Guid(03e3d878c56a2134a9982ba5d33a114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube/Regular Wood.mat using Guid(03e3d878c56a2134a9982ba5d33a114a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43540b734fd600cde05d5cdd58aee4d6') in 0.006540 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube/Toy Cube.fbx
-  artifactKey: Guid(5ca8c2a189a56144aadd0b6ceaee6a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Prefabs/Objects/Tutorial Objects/ToyCube/Toy Cube.fbx using Guid(5ca8c2a189a56144aadd0b6ceaee6a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f892a2eecf39722d8d86881be164699') in 0.164868 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 5.017941 seconds.
-  path: Assets/Game Design/Prefabs/Objects/Tutorial Objects/Grounds/615323__deadrobotmusic__sidechain-tutorial-percussion-160bpm.wav
-  artifactKey: Guid(87b21c0680a17fb4f93c79c0fef93476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Prefabs/Objects/Tutorial Objects/Grounds/615323__deadrobotmusic__sidechain-tutorial-percussion-160bpm.wav using Guid(87b21c0680a17fb4f93c79c0fef93476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159fe67ff26a0b4c397f9f479019de43') in 0.025865 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.463634 seconds.
-  path: Assets/Scenes/Tutorial.unity
-  artifactKey: Guid(e8d22cdd3e263ec4fbdef64bb6c5fdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Tutorial.unity using Guid(e8d22cdd3e263ec4fbdef64bb6c5fdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fb843fabb4f803901e5a973552a425') in 0.000858 seconds 
+  Time since last request: 6.349291 seconds.
+  path: Assets/Game Design/Game Assignment #2.unity
+  artifactKey: Guid(ef0ff2f27ff702b41a4b96593ba90f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Design/Game Assignment #2.unity using Guid(ef0ff2f27ff702b41a4b96593ba90f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886ef667f55cd6cc7448b322f2bf3d97') in 0.000666 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
@@ -377,85 +209,54 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\PUI_GAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\PUI_GAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.389 seconds
-Refreshing native plugins compatible for Editor in 3.22 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.590 seconds
+Refreshing native plugins compatible for Editor in 4.17 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-PUI ASSIGNMENT #2
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.198 seconds
+- Finished resetting the current domain, in  2.398 seconds
 Domain Reload Profiling:
-	ReloadAssembly (289ms)
-		BeginReloadAssembly (183ms)
+	ReloadAssembly (359ms)
+		BeginReloadAssembly (233ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (16ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		LoadAllAssembliesAndSetupDomain (1093ms)
-			LoadAssemblies (355ms)
+			CreateAndSetChildDomain (93ms)
+		LoadAllAssembliesAndSetupDomain (1225ms)
+			LoadAssemblies (378ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (792ms)
-				TypeCache.Initialize (492ms)
-					TypeCache.ScanAssembly (483ms)
-				ResolveRequiredComponents (12ms)
+			SetupTypeCache (915ms)
+				TypeCache.Initialize (472ms)
+					TypeCache.ScanAssembly (461ms)
+				ResolveRequiredComponents (15ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (919ms)
+			SetupLoadedEditorAssemblies (1376ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (4ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (442ms)
-				ProcessInitializeOnLoadMethodAttributes (325ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (622ms)
+				ProcessInitializeOnLoadMethodAttributes (547ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:945 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:1631 
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:945 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.GetMaterial (UnityEngine.Rendering.Universal.DefaultMaterialType materialType) [0x00000] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:851 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultMaterial () [0x00000] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:1533 
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
-Refreshing native plugins compatible for Editor in 10.03 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 4.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 8476 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (0.7 MB). Loaded Objects now: 9102.
-Memory consumption went from 1.31 GB to 1.31 GB.
-Total: 11.770000 ms (FindLiveObjects: 1.680800 ms CreateObjectMapping: 1.731100 ms MarkObjects: 7.754900 ms  DeleteObjects: 0.600600 ms)
+Unloading 8470 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (321.2 KB). Loaded Objects now: 9166.
+Memory consumption went from 1.25 GB to 1.25 GB.
+Total: 11.161300 ms (FindLiveObjects: 1.187200 ms CreateObjectMapping: 0.984600 ms MarkObjects: 8.779500 ms  DeleteObjects: 0.208500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:945 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultShader () [0x00000] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:1631 
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_scriptableRendererData () [0x00015] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:945 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.GetMaterial (UnityEngine.Rendering.Universal.DefaultMaterialType materialType) [0x00000] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:851 
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.get_defaultMaterial () [0x00000] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:1533 
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:srp/default-shader: ff2869b2ce7c09b51d8bc2926aab598d -> 886a89792de1e9d3697bddabf731a298
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
@@ -466,305 +267,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:srp/default-material: 1323b11ab5f8e84b9c4553e3cd30b8d1 -> 00000000000000000f00000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 241.777080 seconds.
-  path: Assets/GameObject.prefab
-  artifactKey: Guid(7c21cf9137630eb48a177ac6fd73d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameObject.prefab using Guid(7c21cf9137630eb48a177ac6fd73d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <f45a99ffbb9f4d0580258c77e560b3ab>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.GameObjectInspector:DoRenderPreview(PreviewData)
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
- -> (artifact id: 'a6b3c77b60106bb44b133e755acc3f03') in 0.152720 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 912
-========================================================================
-Received Import Request.
-  Time since last request: 1.639553 seconds.
-  path: Assets/Assignment#2Stuff/Sound/677888__ranman22__man-gasping.wav
-  artifactKey: Guid(78a3523c1e2c997489d0dbf585519160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assignment#2Stuff/Sound/677888__ranman22__man-gasping.wav using Guid(78a3523c1e2c997489d0dbf585519160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f9944697ddd520841185f16077f88b') in 0.011892 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.032551 seconds.
-  path: Assets/Building FastFood Drinks/Demo Scene/Demo_Scene.unity
-  artifactKey: Guid(1607538b4c33fcf4d9769b2cade60417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Building FastFood Drinks/Demo Scene/Demo_Scene.unity using Guid(1607538b4c33fcf4d9769b2cade60417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6114e1c6cc3fc7df0f7040af33ddf397') in 0.000515 seconds 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.518991 seconds.
-  path: Assets/Game Design/Prefabs/Player 1.prefab
-  artifactKey: Guid(8d4333dbf8ef2804998bba19bddbc7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Prefabs/Player 1.prefab using Guid(8d4333dbf8ef2804998bba19bddbc7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <f45a99ffbb9f4d0580258c77e560b3ab>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.GameObjectInspector:DoRenderPreview(PreviewData)
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
- -> (artifact id: '312fe4396e6b53b06936d9608e352b64') in 1.687296 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1294
-========================================================================
-Received Import Request.
-  Time since last request: 5.173062 seconds.
-  path: Assets/Low Poly Fruits/Fruits_FBX.fbx
-  artifactKey: Guid(3f4d2118f6a772542a1635ef5bfa6982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Fruits/Fruits_FBX.fbx using Guid(3f4d2118f6a772542a1635ef5bfa6982) Importer(815301076,1909f56bfc062723c751e8b465ee728b) NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <f45a99ffbb9f4d0580258c77e560b3ab>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.GameObjectInspector:DoRenderPreview(PreviewData)
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <f45a99ffbb9f4d0580258c77e560b3ab>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.GameObjectInspector:DoRenderPreview(PreviewData)
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <f45a99ffbb9f4d0580258c77e560b3ab>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.GameObjectInspector:DoRenderPreview(PreviewData)
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <f45a99ffbb9f4d0580258c77e560b3ab>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.GameObjectInspector:DoRenderPreview(PreviewData)
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <f45a99ffbb9f4d0580258c77e560b3ab>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.GameObjectInspector:DoRenderPreview(PreviewData)
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <f45a99ffbb9f4d0580258c77e560b3ab>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.GameObjectInspector:DoRenderPreview(PreviewData)
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <f45a99ffbb9f4d0580258c77e560b3ab>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.GameObjectInspector:DoRenderPreview(PreviewData)
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <f45a99ffbb9f4d0580258c77e560b3ab>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.GameObjectInspector:DoRenderPreview(PreviewData)
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <f45a99ffbb9f4d0580258c77e560b3ab>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.GameObjectInspector:DoRenderPreview(PreviewData)
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <f45a99ffbb9f4d0580258c77e560b3ab>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.GameObjectInspector:DoRenderPreview(PreviewData)
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
-NullReferenceException: Object reference not set to an instance of an object
-  at UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset.CreatePipeline () [0x00039] in .\Library\PackageCache\com.unity.render-pipelines.universal@14.0.6\Runtime\Data\UniversalRenderPipelineAsset.cs:757 
-  at UnityEngine.Rendering.RenderPipelineAsset.InternalCreatePipeline () [0x00004] in <f45a99ffbb9f4d0580258c77e560b3ab>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
-UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline(RenderPipelineAsset)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object, AtomicSafetyHandle)
-UnityEngine.Camera:Render(Camera)
-UnityEditor.PreviewRenderUtility:Render(Boolean, Boolean)
-UnityEditor.GameObjectInspector:DoRenderPreview(PreviewData)
-UnityEditor.GameObjectInspector:RenderStaticPreview(String, Object[], Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreview(Object, Object[], String, Int32, Int32)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset(Object, Object[], String)
-
-(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.6/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 757)
-
- -> (artifact id: '53e220dad3bde91d34e65888510aa875') in 0.128033 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 56
-========================================================================
-Received Import Request.
-  Time since last request: 2.846864 seconds.
-  path: Assets/Game Design/Game Assignment #2.unity
-  artifactKey: Guid(ef0ff2f27ff702b41a4b96593ba90f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game Design/Game Assignment #2.unity using Guid(ef0ff2f27ff702b41a4b96593ba90f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c792d89fd897ce81b3282ef1e02abe') in 0.000707 seconds 
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi cancelada devido a uma saída do módulo ou a um pedido da aplicação.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

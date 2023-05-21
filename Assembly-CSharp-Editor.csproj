@@ -968,6 +968,10 @@
       <Project>{dc9c2371-acd8-5eb3-89b0-2fe88b194637}</Project>
       <Name>GameCreator.Editor.Quests</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{8937ca7c-ed12-cba6-1ff4-0eb4f95b39dd}</Project>
+      <Name>Unity.InputSystem</Name>
+    </ProjectReference>
     <ProjectReference Include="GameCreator.Editor.Core.csproj">
       <Project>{81ee0d4b-871d-e7e3-1f3a-b09b4b530872}</Project>
       <Name>GameCreator.Editor.Core</Name>
