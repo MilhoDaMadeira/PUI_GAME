@@ -991,10 +991,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Instructions:
     m_Instructions:
+    - rid: 4002127189776531739
+    - rid: 4002127189776531750
     - rid: 4002126926418280459
     - rid: 4002126927587704846
     - rid: 4002126926418280462
     - rid: 4002126926418280464
+    - rid: 4002127189776531747
+    - rid: 4002127189776531756
     - rid: 4002127002831945747
     - rid: 4002127002831945749
   m_TriggerEvent:
@@ -1123,6 +1127,68 @@ MonoBehaviour:
       type: {class: GetDecimalInteger, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
       data:
         m_Value: 3
+    - rid: 4002127189776531739
+      type: {class: InstructionCommonAudioAmbientPlay, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_AudioClip: {fileID: 8300000, guid: ce2aeec1853bfc449a18aeccefc32caa, type: 3}
+        m_Config:
+          m_Volume: 0.4
+          m_TransitionIn: 0
+          m_UpdateMode: 0
+          m_SpatialBlend: 0
+          m_Target:
+            m_Property:
+              rid: 4002127189776531740
+    - rid: 4002127189776531740
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 0}
+    - rid: 4002127189776531747
+      type: {class: InstructionCommonAudioAmbientStop, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_AudioClip: {fileID: 8300000, guid: ce2aeec1853bfc449a18aeccefc32caa, type: 3}
+        m_WaitToComplete: 0
+        transitionOut: 0
+    - rid: 4002127189776531750
+      type: {class: InstructionCommonAudioSFXPlay, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_AudioClip: {fileID: 8300000, guid: 1375d87e139f42f43a66898ce7c20ca3, type: 3}
+        m_WaitToComplete: 0
+        m_Config:
+          m_Volume: 0.3
+          m_Pitch: {x: 1, y: 1}
+          m_TransitionIn: 0
+          m_UpdateMode: 0
+          m_SpatialBlend: 0
+          m_Target:
+            m_Property:
+              rid: 4002127189776531751
+    - rid: 4002127189776531751
+      type: {class: GetGameObjectInstance, ns: GameCreator.Runtime.Common, asm: GameCreator.Runtime.Core}
+      data:
+        m_GameObject: {fileID: 0}
+    - rid: 4002127189776531756
+      type: {class: InstructionCommonAudioSFXStop, ns: GameCreator.Runtime.VisualScripting,
+        asm: GameCreator.Runtime.Core}
+      data:
+        m_IsExpanded: 1
+        m_Breakpoint: 0
+        m_IsEnabled: 1
+        m_AudioClip: {fileID: 8300000, guid: 1375d87e139f42f43a66898ce7c20ca3, type: 3}
+        m_WaitToComplete: 0
+        transitionOut: 0
 --- !u!4 &440019836
 Transform:
   m_ObjectHideFlags: 0
